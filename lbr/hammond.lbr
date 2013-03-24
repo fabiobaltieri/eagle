@@ -350,42 +350,42 @@ http://www.hammondmfg.com/pdf/1591XXA.pdf&lt;br&gt;</description>
 <gate name="G$1" symbol="BOX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-H" package="1551H">
+<device name="-1551H" package="1551H">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-K" package="1551K">
+<device name="-1551K" package="1551K">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-R" package="1551R">
+<device name="-1551R" package="1551R">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-G" package="1551G">
+<device name="-1551G" package="1551G">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-XXA" package="1591XXA">
+<device name="-1591XXA" package="1591XXA">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-H-1H" package="1551H-1HOLE">
+<device name="-1551H-1H" package="1551H-1HOLE">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-G-1H" package="1551G-1HOLE">
+<device name="-1551G-1H" package="1551G-1HOLE">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-B" package="1553B">
+<device name="-1553B" package="1553B">
 <technologies>
 <technology name=""/>
 </technologies>
