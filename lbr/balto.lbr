@@ -8100,16 +8100,16 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <deviceset name="5G-1LED" prefix="SW">
 <description>&lt;b&gt;Multimec 5G/5E switch - 1 LED&lt;/b&gt;</description>
 <gates>
-<gate name="G$2" symbol="LED" x="7.62" y="0"/>
-<gate name="G$1" symbol="SW-2WAY" x="0" y="0"/>
+<gate name="L" symbol="LED" x="7.62" y="0"/>
+<gate name="SW" symbol="SW-2WAY" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SH9" package="MEC_5E_5G_SMD">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="4"/>
-<connect gate="G$2" pin="A" pad="3+"/>
-<connect gate="G$2" pin="C" pad="2-"/>
+<connect gate="L" pin="A" pad="3+"/>
+<connect gate="L" pin="C" pad="2-"/>
+<connect gate="SW" pin="P$1" pad="1"/>
+<connect gate="SW" pin="P$2" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8120,16 +8120,16 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <deviceset name="5G-2LED" prefix="SW">
 <description>&lt;b&gt;Multimec 5G/5E switch - 2 LEDs&lt;/b&gt;</description>
 <gates>
-<gate name="G$2" symbol="LED-BICOLOR" x="7.62" y="2.54"/>
-<gate name="G$1" symbol="SW-2WAY" x="0" y="0"/>
+<gate name="L" symbol="LED-BICOLOR" x="7.62" y="2.54"/>
+<gate name="SW" symbol="SW-2WAY" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SH9" package="MEC_5E_5G_SMD">
 <connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="4"/>
-<connect gate="G$2" pin="A" pad="3+"/>
-<connect gate="G$2" pin="C" pad="2-"/>
+<connect gate="L" pin="A" pad="3+"/>
+<connect gate="L" pin="C" pad="2-"/>
+<connect gate="SW" pin="P$1" pad="1"/>
+<connect gate="SW" pin="P$2" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8140,15 +8140,15 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <deviceset name="5G/5E" prefix="SW">
 <description>&lt;b&gt;Multimec 5G/5E switch&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="SW-4PIN" x="0" y="0"/>
+<gate name="SW" symbol="SW-4PIN" x="0" y="0"/>
 </gates>
 <devices>
 <device name="SH9" package="MEC_5E_5G_SMD">
 <connects>
-<connect gate="G$1" pin="1A" pad="1"/>
-<connect gate="G$1" pin="1B" pad="2-"/>
-<connect gate="G$1" pin="2A" pad="3+"/>
-<connect gate="G$1" pin="2B" pad="4"/>
+<connect gate="SW" pin="1A" pad="1"/>
+<connect gate="SW" pin="1B" pad="2-"/>
+<connect gate="SW" pin="2A" pad="3+"/>
+<connect gate="SW" pin="2B" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
