@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3987,6 +3987,19 @@ MAX3223-MAX3243.pdf</description>
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <wire x1="-3.7" y1="-2" x2="-3.7" y2="2" width="0.127" layer="51" style="shortdash"/>
 <rectangle x1="-1.1" y1="-0.2" x2="-0.5" y2="0.2" layer="21"/>
+</package>
+<package name="LDS_ANTENNA">
+<description>&lt;b&gt;Molex SMD Antenna&lt;/b&gt;</description>
+<smd name="NC1" x="0.97" y="0.97" dx="1.54" dy="1.54" layer="1" cream="no"/>
+<smd name="NC2" x="0.97" y="-0.97" dx="1.54" dy="1.54" layer="1" cream="no"/>
+<smd name="NC3" x="-0.97" y="-0.97" dx="1.54" dy="1.54" layer="1" cream="no"/>
+<smd name="FEED" x="-0.97" y="0.97" dx="1.54" dy="1.54" layer="1" cream="no"/>
+<rectangle x1="-1.405" y1="-1.405" x2="-0.535" y2="-0.535" layer="31"/>
+<rectangle x1="-1.405" y1="0.535" x2="-0.535" y2="1.405" layer="31"/>
+<rectangle x1="0.535" y1="0.535" x2="1.405" y2="1.405" layer="31"/>
+<rectangle x1="0.535" y1="-1.405" x2="1.405" y2="-0.535" layer="31"/>
+<wire x1="-1.9" y1="1.4" x2="-1.9" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-1.9" y1="1.9" x2="-1.4" y2="1.9" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -8382,6 +8395,22 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </gates>
 <devices>
 <device name="-7488930245" package="WE-MCA">
+<connects>
+<connect gate="G$1" pin="P$1" pad="FEED"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MOLEX_SMD_ANTENNA" prefix="ANT">
+<description>&lt;b&gt;Molex SMD Antenna&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="ANTENNA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LDS_ANTENNA">
 <connects>
 <connect gate="G$1" pin="P$1" pad="FEED"/>
 </connects>
