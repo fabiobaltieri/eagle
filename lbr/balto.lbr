@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -6487,15 +6487,15 @@ OTG, Ethernet, 10 timers, 2 CANs, 2 ADCs, 14 communication interfaces</descripti
 <wire x1="-12.7" y1="15.24" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
 <pin name="VSS" x="-15.24" y="-7.62" length="short"/>
 <pin name="VIN_DC" x="-15.24" y="10.16" length="short"/>
-<pin name="VOC_SAMP" x="-15.24" y="5.08" length="short"/>
-<pin name="VREF_SAMP" x="-15.24" y="2.54" length="short"/>
+<pin name="VOC_SAMP" x="-15.24" y="2.54" length="short"/>
+<pin name="VREF_SAMP" x="-15.24" y="0" length="short"/>
 <pin name="OT_PROG" x="15.24" y="-15.24" length="short" rot="R180"/>
 <pin name="VBAT_OV" x="15.24" y="-5.08" length="short" rot="R180"/>
-<pin name="VRDIV" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="VRDIV" x="15.24" y="0" length="short" rot="R180"/>
 <pin name="VBAT_UV" x="15.24" y="-7.62" length="short" rot="R180"/>
 <pin name="OK_HYST" x="15.24" y="-10.16" length="short" rot="R180"/>
 <pin name="OK_PROG" x="15.24" y="-12.7" length="short" rot="R180"/>
-<pin name="VBAT_OK" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="VBAT_OK" x="15.24" y="5.08" length="short" rot="R180"/>
 <pin name="AVSS" x="-15.24" y="-12.7" length="short"/>
 <pin name="VSS@1" x="-15.24" y="-10.16" length="short"/>
 <pin name="VBAT" x="15.24" y="10.16" length="short" rot="R180"/>
