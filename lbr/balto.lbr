@@ -65,6 +65,8 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -4124,6 +4126,59 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <text x="-8" y="0" size="1.27" layer="21" align="center">+</text>
 <text x="8" y="0" size="1.27" layer="21" align="center">-</text>
 </package>
+<package name="QFN16-3X3MM">
+<description>3mm x 3mm QFN 16 pin</description>
+<smd name="5" x="-0.75" y="-1.475" dx="0.85" dy="0.28" layer="1" rot="R90" cream="no"/>
+<smd name="6" x="-0.25" y="-1.475" dx="0.85" dy="0.28" layer="1" rot="R90" cream="no"/>
+<smd name="7" x="0.25" y="-1.475" dx="0.85" dy="0.28" layer="1" rot="R90" cream="no"/>
+<smd name="8" x="0.75" y="-1.475" dx="0.85" dy="0.28" layer="1" rot="R90" cream="no"/>
+<smd name="9" x="1.475" y="-0.75" dx="0.85" dy="0.28" layer="1" rot="R180" cream="no"/>
+<smd name="10" x="1.475" y="-0.25" dx="0.85" dy="0.28" layer="1" rot="R180" cream="no"/>
+<smd name="11" x="1.475" y="0.25" dx="0.85" dy="0.28" layer="1" rot="R180" cream="no"/>
+<smd name="12" x="1.475" y="0.75" dx="0.85" dy="0.28" layer="1" rot="R180" cream="no"/>
+<smd name="13" x="0.75" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R270" cream="no"/>
+<smd name="14" x="0.25" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R270" cream="no"/>
+<smd name="15" x="-0.25" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R270" cream="no"/>
+<smd name="16" x="-0.75" y="1.475" dx="0.85" dy="0.28" layer="1" rot="R270" cream="no"/>
+<smd name="1" x="-1.475" y="0.75" dx="0.85" dy="0.28" layer="1" cream="no"/>
+<smd name="2" x="-1.475" y="0.25" dx="0.85" dy="0.28" layer="1" cream="no"/>
+<smd name="3" x="-1.475" y="-0.25" dx="0.85" dy="0.28" layer="1" cream="no"/>
+<smd name="4" x="-1.475" y="-0.75" dx="0.85" dy="0.28" layer="1" cream="no"/>
+<text x="-2.54" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.1524" layer="51"/>
+<wire x1="-1.6" y1="1.1" x2="-1.1" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="1.6" x2="1.6" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.6" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.1" x2="1.6" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.6" x2="1.1" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="-1.6" x2="-1.6" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-1.1" width="0.2032" layer="21"/>
+<smd name="EXT" x="0" y="0" dx="1.68" dy="1.68" layer="1" cream="no"/>
+<rectangle x1="-0.6" y1="0.15" x2="-0.15" y2="0.6" layer="31"/>
+<rectangle x1="0.15" y1="0.15" x2="0.6" y2="0.6" layer="31"/>
+<rectangle x1="0.15" y1="-0.6" x2="0.6" y2="-0.15" layer="31"/>
+<rectangle x1="-0.6" y1="-0.6" x2="-0.15" y2="-0.15" layer="31"/>
+<wire x1="-1.8" y1="0.75" x2="-1.15" y2="0.75" width="0.2032" layer="31"/>
+<wire x1="-1.8" y1="-0.25" x2="-1.15" y2="-0.25" width="0.2032" layer="31"/>
+<wire x1="-0.75" y1="-1.8" x2="-0.75" y2="-1.15" width="0.2032" layer="31"/>
+<wire x1="0.25" y1="-1.8" x2="0.25" y2="-1.15" width="0.2032" layer="31"/>
+<wire x1="1.8" y1="-0.75" x2="1.15" y2="-0.75" width="0.2032" layer="31"/>
+<wire x1="1.8" y1="0.25" x2="1.15" y2="0.25" width="0.2032" layer="31"/>
+<wire x1="0.75" y1="1.8" x2="0.75" y2="1.15" width="0.2032" layer="31"/>
+<wire x1="-0.25" y1="1.8" x2="-0.25" y2="1.15" width="0.2032" layer="31"/>
+<wire x1="0.25" y1="1.8" x2="0.25" y2="1.15" width="0.2032" layer="31"/>
+<wire x1="-0.75" y1="1.8" x2="-0.75" y2="1.15" width="0.2032" layer="31"/>
+<wire x1="-1.8" y1="0.25" x2="-1.15" y2="0.25" width="0.2032" layer="31"/>
+<wire x1="-1.8" y1="-0.75" x2="-1.15" y2="-0.75" width="0.2032" layer="31"/>
+<wire x1="-0.25" y1="-1.8" x2="-0.25" y2="-1.15" width="0.2032" layer="31"/>
+<wire x1="0.75" y1="-1.8" x2="0.75" y2="-1.15" width="0.2032" layer="31"/>
+<wire x1="1.8" y1="-0.25" x2="1.15" y2="-0.25" width="0.2032" layer="31"/>
+<wire x1="1.8" y1="0.75" x2="1.15" y2="0.75" width="0.2032" layer="31"/>
+</package>
 </packages>
 <symbols>
 <symbol name="52437-2491">
@@ -6424,6 +6479,32 @@ OTG, Ethernet, 10 timers, 2 CANs, 2 ADCs, 14 communication interfaces</descripti
 <wire x1="3.81" y1="3.81" x2="4.445" y2="3.175" width="0.254" layer="94"/>
 <wire x1="4.445" y1="3.175" x2="3.81" y2="3.175" width="0.254" layer="94"/>
 </symbol>
+<symbol name="BQ25504">
+<description>&lt;b&gt;BQ25504&lt;/b&gt;</description>
+<wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<pin name="VSS" x="-15.24" y="-7.62" length="short"/>
+<pin name="VIN_DC" x="-15.24" y="10.16" length="short"/>
+<pin name="VOC_SAMP" x="-15.24" y="5.08" length="short"/>
+<pin name="VREF_SAMP" x="-15.24" y="2.54" length="short"/>
+<pin name="OT_PROG" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="VBAT_OV" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="VRDIV" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="VBAT_UV" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="OK_HYST" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="OK_PROG" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="VBAT_OK" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="AVSS" x="-15.24" y="-12.7" length="short"/>
+<pin name="VSS@1" x="-15.24" y="-10.16" length="short"/>
+<pin name="VBAT" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="VSTOR" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="LBST" x="-15.24" y="12.7" length="short"/>
+<pin name="PAD" x="-15.24" y="-15.24" length="short"/>
+<text x="-10.16" y="17.78" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="52437-2491" prefix="JP">
@@ -8697,6 +8778,40 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BQ25504" prefix="U">
+<description>&lt;b&gt;BQ25504&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Ultra Low Power Boost Converter with Battery Management for Energy Harvester Applications.</description>
+<gates>
+<gate name="G$1" symbol="BQ25504" x="10.16" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN16-3X3MM">
+<connects>
+<connect gate="G$1" pin="AVSS" pad="12"/>
+<connect gate="G$1" pin="LBST" pad="16"/>
+<connect gate="G$1" pin="OK_HYST" pad="9"/>
+<connect gate="G$1" pin="OK_PROG" pad="10"/>
+<connect gate="G$1" pin="OT_PROG" pad="5"/>
+<connect gate="G$1" pin="PAD" pad="EXT"/>
+<connect gate="G$1" pin="VBAT" pad="14"/>
+<connect gate="G$1" pin="VBAT_OK" pad="11"/>
+<connect gate="G$1" pin="VBAT_OV" pad="6"/>
+<connect gate="G$1" pin="VBAT_UV" pad="8"/>
+<connect gate="G$1" pin="VIN_DC" pad="2"/>
+<connect gate="G$1" pin="VOC_SAMP" pad="3"/>
+<connect gate="G$1" pin="VRDIV" pad="7"/>
+<connect gate="G$1" pin="VREF_SAMP" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="1"/>
+<connect gate="G$1" pin="VSS@1" pad="13"/>
+<connect gate="G$1" pin="VSTOR" pad="15"/>
 </connects>
 <technologies>
 <technology name=""/>
