@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4334,6 +4334,93 @@ SOT340-1 / JEDEC MO-150AG</description>
 <rectangle x1="-3.075" y1="2.6" x2="-2.775" y2="3.8" layer="51"/>
 <rectangle x1="-3.725" y1="2.6" x2="-3.425" y2="3.8" layer="51"/>
 </package>
+<package name="SOIC8-POWERPAD">
+<description>&lt;b&gt;Small Outline IC w/ PowerPAD&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<smd name="TH" x="0" y="0" dx="2.1" dy="2.9" layer="1" rot="R90"/>
+</package>
+<package name="RJ45-8-SHIELD">
+<wire x1="-7.62" y1="10.3" x2="7.62" y2="10.3" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-8" x2="-7.62" y2="10.3" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-8" x2="7.62" y2="-8" width="0.2032" layer="21"/>
+<wire x1="7.62" y1="10.3" x2="7.62" y2="-8" width="0.2032" layer="21"/>
+<pad name="8" x="4.445" y="8.89" drill="0.9"/>
+<pad name="7" x="3.175" y="6.35" drill="0.9"/>
+<pad name="6" x="1.905" y="8.89" drill="0.9"/>
+<pad name="4" x="-0.635" y="8.89" drill="0.9"/>
+<pad name="2" x="-3.175" y="8.89" drill="0.9"/>
+<pad name="5" x="0.635" y="6.35" drill="0.9"/>
+<pad name="3" x="-1.905" y="6.35" drill="0.9"/>
+<pad name="1" x="-4.445" y="6.35" drill="0.9" first="yes"/>
+<hole x="-5.715" y="0" drill="3.2"/>
+<hole x="5.715" y="0" drill="3.2"/>
+<pad name="P$1" x="7.795" y="-3.05" drill="1.6"/>
+<pad name="P$2" x="-7.795" y="-3.05" drill="1.6"/>
+</package>
+<package name="PULSE-TRAFO">
+<wire x1="6.35" y1="3.555" x2="-6.35" y2="3.555" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="3.555" x2="-6.35" y2="-3.555" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-3.555" x2="6.35" y2="-3.555" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-3.555" x2="6.35" y2="3.555" width="0.127" layer="21"/>
+<smd name="1" x="-4.445" y="-4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="16" x="-4.445" y="4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="8" x="4.445" y="-4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="9" x="4.445" y="4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="10" x="3.175" y="4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="7" x="3.175" y="-4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="2" x="-3.175" y="-4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="15" x="-3.175" y="4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="14" x="-1.905" y="4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="3" x="-1.905" y="-4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="6" x="1.905" y="-4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="11" x="1.905" y="4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="12" x="0.635" y="4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="5" x="0.635" y="-4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="4" x="-0.635" y="-4.5725" dx="0.64" dy="1.525" layer="1"/>
+<smd name="13" x="-0.635" y="4.5725" dx="0.64" dy="1.525" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<circle x="-5.08" y="-2.54" radius="0.635" width="0" layer="21"/>
+</package>
+<package name="CC6-XXXXSR-E">
+<description>&lt;b&gt;TDK Lambda DCDC Module&lt;/b&gt;</description>
+<smd name="6" x="12.6" y="2.54" dx="3.2" dy="1.2" layer="1"/>
+<smd name="5" x="12.6" y="-2.54" dx="3.2" dy="1.2" layer="1"/>
+<smd name="2" x="-12.6" y="-2.54" dx="3.2" dy="1.2" layer="1"/>
+<smd name="4" x="12.6" y="-7.62" dx="3.2" dy="1.2" layer="1"/>
+<smd name="7" x="12.6" y="7.62" dx="3.2" dy="1.2" layer="1"/>
+<smd name="1" x="-12.6" y="7.62" dx="3.2" dy="1.2" layer="1"/>
+<smd name="3" x="-12.6" y="-7.62" dx="3.2" dy="1.2" layer="1"/>
+<wire x1="11.43" y1="10.55" x2="-11.43" y2="10.55" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="10.55" x2="-11.43" y2="-10.55" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-10.55" x2="11.43" y2="-10.55" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-10.55" x2="11.43" y2="10.55" width="0.127" layer="21"/>
+<circle x="-9.525" y="8.89" radius="0.898025" width="0" layer="21"/>
+<text x="0" y="0" size="1.778" layer="25" align="center">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="52437-2491">
@@ -6785,6 +6872,85 @@ OTG, Ethernet, 10 timers, 2 CANs, 2 ADCs, 14 communication interfaces</descripti
 <pin name="V+" x="-12.7" y="7.62" length="short"/>
 <pin name="+SENSE" x="12.7" y="5.08" length="short" rot="R180"/>
 <pin name="+VO" x="12.7" y="2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="TPS2378">
+<description>&lt;b&gt;IEEE 802.3at PoE High-Power PD Interface&lt;/b&gt;</description>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="12.7" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VDD" x="-12.7" y="7.62" length="short"/>
+<pin name="DEN" x="-12.7" y="2.54" length="short"/>
+<pin name="CLS" x="-12.7" y="0" length="short"/>
+<pin name="VSS" x="-12.7" y="-5.08" length="short"/>
+<pin name="RTN" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="CDB" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="T2P" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="APD" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="TH" x="-12.7" y="-7.62" length="short"/>
+</symbol>
+<symbol name="RJ45-8-SHIELD">
+<wire x1="-7.62" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="15.748" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="95">&gt;Value</text>
+<pin name="1" x="-12.7" y="12.7" visible="pin" length="middle"/>
+<pin name="2" x="-12.7" y="10.16" visible="pin" length="middle"/>
+<pin name="3" x="-12.7" y="7.62" visible="pin" length="middle"/>
+<pin name="4" x="-12.7" y="5.08" visible="pin" length="middle"/>
+<pin name="8" x="-12.7" y="-5.08" visible="pin" length="middle"/>
+<pin name="7" x="-12.7" y="-2.54" visible="pin" length="middle"/>
+<pin name="6" x="-12.7" y="0" visible="pin" length="middle"/>
+<pin name="5" x="-12.7" y="2.54" visible="pin" length="middle"/>
+<pin name="SHIELD" x="-12.7" y="-10.16" visible="pin" length="middle"/>
+</symbol>
+<symbol name="PULSE-TRAFO">
+<description>&lt;b&gt;Pulse Transformer&lt;/b&gt;</description>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="12.7" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="TD+" x="-12.7" y="7.62" length="short"/>
+<pin name="TDCT" x="-12.7" y="5.08" length="short"/>
+<pin name="TD-" x="-12.7" y="2.54" length="short"/>
+<pin name="RD+" x="-12.7" y="-2.54" length="short"/>
+<pin name="RDCT" x="-12.7" y="-5.08" length="short"/>
+<pin name="RD-" x="-12.7" y="-7.62" length="short"/>
+<pin name="RX-" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="RXCT" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="RX+" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="TX-" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="TXCT" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="TX+" x="12.7" y="7.62" length="short" rot="R180"/>
+</symbol>
+<symbol name="CC6">
+<description>&lt;b&gt;DC-DC CONVERTER UNIT CC6-xxxxxR-E Series&lt;/b&gt;</description>
+<wire x1="-15.24" y1="7.62" x2="15.24" y2="7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
+<text x="-12.7" y="10.16" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-12.7" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="-VIN" x="-17.78" y="2.54" length="short"/>
+<pin name="+VIN" x="-17.78" y="5.08" length="short"/>
+<pin name="TRM" x="17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="-VOUT" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="+VOUT" x="17.78" y="5.08" length="short" rot="R180"/>
+<wire x1="-5.08" y1="-5.08" x2="4.064" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-4.064" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-4.064" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="4.064" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="4.064" x2="4.064" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-4.064" x2="-4.064" y2="5.08" width="0.254" layer="94"/>
+<text x="-2.032" y="-2.54" size="1.6764" layer="94" align="center">DC</text>
+<text x="3.048" y="2.032" size="1.6764" layer="94" align="center">DC</text>
+<pin name="RC" x="-17.78" y="-5.08" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9258,6 +9424,101 @@ Ultra Low Power Boost Converter with Battery Management for Energy Harvester App
 <connect gate="G$1" pin="V+" pad="6"/>
 <connect gate="G$1" pin="V-" pad="5"/>
 <connect gate="G$1" pin="VIN" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS2378" prefix="U">
+<description>&lt;b&gt;IEEE 802.3at PoE High-Power PD Interface&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS2378" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC8-POWERPAD">
+<connects>
+<connect gate="G$1" pin="APD" pad="8"/>
+<connect gate="G$1" pin="CDB" pad="6"/>
+<connect gate="G$1" pin="CLS" pad="3"/>
+<connect gate="G$1" pin="DEN" pad="2"/>
+<connect gate="G$1" pin="RTN" pad="5"/>
+<connect gate="G$1" pin="T2P" pad="7"/>
+<connect gate="G$1" pin="TH" pad="TH"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RJ45-8-SHIELD" prefix="J">
+<gates>
+<gate name="G$1" symbol="RJ45-8-SHIELD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PTH" package="RJ45-8-SHIELD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="SHIELD" pad="P$1 P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PULSE-TRAFO" prefix="T">
+<description>&lt;b&gt;Pulse Transformer&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PULSE-TRAFO" x="-12.7" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="PULSE-TRAFO">
+<connects>
+<connect gate="G$1" pin="RD+" pad="6"/>
+<connect gate="G$1" pin="RD-" pad="8"/>
+<connect gate="G$1" pin="RDCT" pad="7"/>
+<connect gate="G$1" pin="RX+" pad="11"/>
+<connect gate="G$1" pin="RX-" pad="9"/>
+<connect gate="G$1" pin="RXCT" pad="10"/>
+<connect gate="G$1" pin="TD+" pad="1"/>
+<connect gate="G$1" pin="TD-" pad="3"/>
+<connect gate="G$1" pin="TDCT" pad="2"/>
+<connect gate="G$1" pin="TX+" pad="16"/>
+<connect gate="G$1" pin="TX-" pad="14"/>
+<connect gate="G$1" pin="TXCT" pad="15"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CC6" prefix="U">
+<description>&lt;b&gt;DC-DC CONVERTER UNIT CC6-xxxxxR-E Series&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="CC6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-4805SR" package="CC6-XXXXSR-E">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="1"/>
+<connect gate="G$1" pin="+VOUT" pad="7"/>
+<connect gate="G$1" pin="-VIN" pad="3"/>
+<connect gate="G$1" pin="-VOUT" pad="5"/>
+<connect gate="G$1" pin="RC" pad="2"/>
+<connect gate="G$1" pin="TRM" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
