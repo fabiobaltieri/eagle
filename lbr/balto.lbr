@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4434,6 +4434,81 @@ SOT340-1 / JEDEC MO-150AG</description>
 <wire x1="-0.1" y1="0" x2="0.1" y2="0" width="0.1016" layer="51"/>
 <wire x1="0" y1="-0.1" x2="0" y2="0.1" width="0.1016" layer="51"/>
 </package>
+<package name="NRX1-TOP">
+<description>&lt;b&gt;Radiometrix NRX1 - VHF Narrow Band FM Receiver&lt;/b&gt;</description>
+<text x="-5.08" y="24.13" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-25.4" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="1" x="0" y="21.59" drill="0.8"/>
+<pad name="2" x="0" y="19.05" drill="0.8"/>
+<pad name="3" x="0" y="-11.43" drill="0.8"/>
+<pad name="4" x="0" y="-13.97" drill="0.8"/>
+<pad name="5" x="0" y="-16.51" drill="0.8"/>
+<pad name="6" x="0" y="-19.05" drill="0.8"/>
+<pad name="7" x="0" y="-21.59" drill="0.8"/>
+<wire x1="-6" y1="-23.5" x2="2" y2="-23.5" width="0.2032" layer="21"/>
+<wire x1="2" y1="-23.5" x2="2" y2="23.5" width="0.2032" layer="21"/>
+<wire x1="2" y1="23.5" x2="-6" y2="23.5" width="0.2032" layer="21"/>
+<wire x1="-6" y1="23.5" x2="-6" y2="-23.5" width="0.2032" layer="21"/>
+</package>
+<package name="SMA-EDGE">
+<description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;&lt;p&gt;
+This is a footprint for an edge mount RF antenna. Works pretty well with SMA type connectors but may also work with other edge mount RF connectors. Keep in mind, these edge mount connectors assume you are using a 0.062" PCB thickness.</description>
+<smd name="GND@0" x="0" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
+<smd name="FEED" x="2.54" y="1.27" dx="1.016" dy="1.524" layer="1" cream="no"/>
+<smd name="GND@1" x="5.08" y="0" dx="1.524" dy="4.064" layer="1" cream="no"/>
+<smd name="GND@2" x="2.54" y="1.27" dx="1.524" dy="4.064" layer="16" rot="R90"/>
+</package>
+<package name="NRX-SMD">
+<description>&lt;b&gt;Radiometrix NRX1 - VHF Narrow Band FM Receiver&lt;/b&gt;</description>
+<text x="-3.81" y="24.13" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-25.4" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-8.5" y1="-23.5" x2="8.5" y2="-23.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="-23.5" x2="8.5" y2="23.5" width="0.127" layer="21"/>
+<wire x1="8.5" y1="23.5" x2="-8.5" y2="23.5" width="0.127" layer="21"/>
+<wire x1="-8.5" y1="23.5" x2="-8.5" y2="-23.5" width="0.127" layer="21"/>
+<smd name="1" x="-11.43" y="21.59" dx="2.54" dy="1.27" layer="1"/>
+<smd name="2" x="-11.43" y="19.05" dx="2.54" dy="1.27" layer="1"/>
+<smd name="3" x="-11.43" y="-11.43" dx="2.54" dy="1.27" layer="1"/>
+<smd name="4" x="-11.43" y="-13.97" dx="2.54" dy="1.27" layer="1"/>
+<smd name="5" x="-11.43" y="-16.51" dx="2.54" dy="1.27" layer="1"/>
+<smd name="6" x="-11.43" y="-19.05" dx="2.54" dy="1.27" layer="1"/>
+<smd name="7" x="-11.43" y="-21.59" dx="2.54" dy="1.27" layer="1"/>
+<dimension x1="8.5" y1="-23.5" x2="8.5" y2="23.5" x3="16.51" y3="0" textsize="1.27" layer="47" dtype="vertical"/>
+<dimension x1="8.5" y1="23.5" x2="-8.5" y2="23.5" x3="0" y3="30.48" textsize="1.27" layer="47" dtype="vertical"/>
+<dimension x1="-8.5" y1="23.5" x2="-10.16" y2="22.86" x3="-9.33" y3="31.75" textsize="1.27" layer="47" dtype="horizontal"/>
+<dimension x1="-10.16" y1="22.86" x2="-12.7" y2="22.86" x3="-11.43" y3="34.29" textsize="1.27" layer="47" dtype="horizontal"/>
+</package>
+<package name="SOT343R">
+<description>&lt;b&gt;Small Outline Transistor; reverse pinning; 4 leads&lt;/b&gt;&lt;p&gt;
+Philips Semiconductors, SOT343R.pdf</description>
+<wire x1="-1" y1="0.45" x2="1" y2="0.45" width="0.2032" layer="51"/>
+<wire x1="1" y1="0.45" x2="1" y2="-0.45" width="0.2032" layer="21"/>
+<wire x1="1" y1="-0.45" x2="-1" y2="-0.45" width="0.2032" layer="51"/>
+<wire x1="-1" y1="-0.45" x2="-1" y2="0.45" width="0.2032" layer="21"/>
+<smd name="2" x="0.5" y="-0.8" dx="0.9" dy="0.8" layer="1"/>
+<smd name="1" x="-0.65" y="-0.8" dx="0.6" dy="0.8" layer="1"/>
+<smd name="4" x="-0.65" y="0.8" dx="0.6" dy="0.8" layer="1"/>
+<smd name="3" x="0.65" y="0.8" dx="0.6" dy="0.8" layer="1"/>
+<text x="-1.1" y="1.45" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.1" y="-2.7" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.15" y1="-1" x2="0.85" y2="-0.5" layer="51"/>
+<rectangle x1="-0.85" y1="-1" x2="-0.45" y2="-0.5" layer="51"/>
+<rectangle x1="-0.85" y1="0.5" x2="-0.45" y2="1" layer="51"/>
+<rectangle x1="0.45" y1="0.5" x2="0.85" y2="1" layer="51"/>
+</package>
+<package name="BD2425N">
+<description>&lt;b&gt;0404 Balun for nRF24L01+&lt;/b&gt;</description>
+<wire x1="-0.525" y1="-0.525" x2="0.525" y2="-0.525" width="0.127" layer="21"/>
+<wire x1="0.525" y1="-0.525" x2="0.525" y2="0.525" width="0.127" layer="21"/>
+<wire x1="0.525" y1="0.525" x2="-0.525" y2="0.525" width="0.127" layer="21"/>
+<wire x1="-0.525" y1="0.525" x2="-0.525" y2="-0.525" width="0.127" layer="21"/>
+<smd name="3" x="-0.25" y="-0.25" dx="0.29" dy="0.29" layer="1"/>
+<smd name="4" x="0.25" y="-0.25" dx="0.29" dy="0.29" layer="1"/>
+<smd name="2" x="-0.25" y="0.25" dx="0.29" dy="0.29" layer="1"/>
+<smd name="1" x="0.285" y="0.285" dx="0.36" dy="0.36" layer="1"/>
+<text x="0.762" y="-0.254" size="0.8128" layer="25">&gt;NAME</text>
+<circle x="0.3" y="0.3" radius="0.1" width="0" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="52437-2491">
@@ -6985,6 +7060,54 @@ OTG, Ethernet, 10 timers, 2 CANs, 2 ADCs, 14 communication interfaces</descripti
 <wire x1="1.905" y1="-0.635" x2="1.905" y2="-2.54" width="0.254" layer="94" style="shortdash"/>
 <text x="0" y="-5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="-7.62" size="1.778" layer="95" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="NRX1">
+<description>&lt;b&gt;Radiometrix NRX1 - VHF Narrow Band FM Receiver&lt;/b&gt;</description>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<text x="-7.62" y="12.7" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="RF_IN" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="RF_GND" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="RSSI" x="-12.7" y="2.54" length="short"/>
+<pin name="0V" x="-12.7" y="-7.62" length="short"/>
+<pin name="VCC" x="-12.7" y="7.62" length="short"/>
+<pin name="AF" x="-12.7" y="0" length="short"/>
+<pin name="RXD" x="-12.7" y="-2.54" length="short"/>
+</symbol>
+<symbol name="SMA_EDGE">
+<circle x="0" y="0" radius="1.1359" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<pin name="FEED" x="5.08" y="0" visible="off" length="middle" rot="R180"/>
+</symbol>
+<symbol name="PSA4-5043">
+<description>&lt;b&gt;Ultra Low Noise MMIC Amplifier&lt;/b&gt;</description>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.778" layer="104" rot="MR180">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="104">&gt;VALUE</text>
+<pin name="RF-OUT" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="GND" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="RF-IN" x="-12.7" y="5.08" length="short"/>
+<pin name="GND@1" x="12.7" y="-2.54" length="short" rot="R180"/>
+</symbol>
+<symbol name="BD2425N">
+<description>&lt;b&gt;0404 Balun for nRF24L01+&lt;/b&gt;</description>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DC" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="UNBAL" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="BAL" x="-12.7" y="2.54" length="short"/>
+<pin name="BAL@1" x="-12.7" y="0" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9567,6 +9690,98 @@ Ultra Low Power Boost Converter with Battery Management for Energy Harvester App
 </gates>
 <devices>
 <device name="" package="VLP-XXX-X">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NRX1" prefix="U">
+<description>&lt;b&gt;Radiometrix NRX1 - VHF Narrow Band FM Receiver&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="NRX1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="TOP" package="NRX1-TOP">
+<connects>
+<connect gate="G$1" pin="0V" pad="4"/>
+<connect gate="G$1" pin="AF" pad="6"/>
+<connect gate="G$1" pin="RF_GND" pad="2"/>
+<connect gate="G$1" pin="RF_IN" pad="1"/>
+<connect gate="G$1" pin="RSSI" pad="3"/>
+<connect gate="G$1" pin="RXD" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="NRX-SMD">
+<connects>
+<connect gate="G$1" pin="0V" pad="4"/>
+<connect gate="G$1" pin="AF" pad="6"/>
+<connect gate="G$1" pin="RF_GND" pad="2"/>
+<connect gate="G$1" pin="RF_IN" pad="1"/>
+<connect gate="G$1" pin="RSSI" pad="3"/>
+<connect gate="G$1" pin="RXD" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMA_EDGE" prefix="J$">
+<description>&lt;b&gt;SMA Antenna Connector&lt;/b&gt;
+End launch SMA connector.</description>
+<gates>
+<gate name="1" symbol="SMA_EDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMA-EDGE">
+<connects>
+<connect gate="1" pin="FEED" pad="FEED"/>
+<connect gate="1" pin="GND" pad="GND@0 GND@1 GND@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PSA4-5043" prefix="U">
+<description>&lt;b&gt;Ultra Low Noise MMIC Amplifier&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PSA4-5043" x="-2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT343R">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="3"/>
+<connect gate="G$1" pin="RF-IN" pad="4"/>
+<connect gate="G$1" pin="RF-OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BD2425N">
+<description>&lt;b&gt;0404 Balun for nRF24L01+&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="BD2425N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BD2425N">
+<connects>
+<connect gate="G$1" pin="BAL" pad="3"/>
+<connect gate="G$1" pin="BAL@1" pad="4"/>
+<connect gate="G$1" pin="DC" pad="1"/>
+<connect gate="G$1" pin="UNBAL" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
