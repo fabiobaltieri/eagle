@@ -7124,6 +7124,29 @@ OTG, Ethernet, 10 timers, 2 CANs, 2 ADCs, 14 communication interfaces</descripti
 <pin name="T1" x="10.16" y="0" length="short" rot="R180"/>
 <pin name="GND" x="10.16" y="-5.08" length="short" rot="R180"/>
 </symbol>
+<symbol name="USB1T11A">
+<description>&lt;b&gt;USB1T11A - USB Transceiver&lt;/b&gt;</description>
+<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="-10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<text x="-7.62" y="17.78" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="MODE" x="-12.7" y="-12.7" length="short"/>
+<pin name="!OE" x="-12.7" y="12.7" length="short"/>
+<pin name="RCV" x="-12.7" y="0" length="short"/>
+<pin name="VP" x="-12.7" y="-2.54" length="short"/>
+<pin name="VM" x="-12.7" y="-5.08" length="short"/>
+<pin name="SUSPND" x="-12.7" y="-10.16" length="short"/>
+<pin name="GND" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="NC" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="SPEED" x="-12.7" y="10.16" length="short"/>
+<pin name="D-" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="D+" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="VPO" x="-12.7" y="5.08" length="short"/>
+<pin name="VMO/FSE0" x="-12.7" y="7.62" length="short"/>
+<pin name="VCC" x="12.7" y="12.7" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="52437-2491" prefix="JP">
@@ -9773,10 +9796,10 @@ End launch SMA connector.</description>
 <devices>
 <device name="" package="SOT343R">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="GND@1" pad="3"/>
-<connect gate="G$1" pin="RF-IN" pad="4"/>
-<connect gate="G$1" pin="RF-OUT" pad="2"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="GND@1" pad="4"/>
+<connect gate="G$1" pin="RF-IN" pad="3"/>
+<connect gate="G$1" pin="RF-OUT" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9817,6 +9840,35 @@ End launch SMA connector.</description>
 <connect gate="G$1" pin="GND" pad="2"/>
 <connect gate="G$1" pin="T1" pad="3"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB1T11A" prefix="U">
+<description>&lt;b&gt;USB1T11A - USB Transceiver&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="USB1T11A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC14">
+<connects>
+<connect gate="G$1" pin="!OE" pad="2"/>
+<connect gate="G$1" pin="D+" pad="11"/>
+<connect gate="G$1" pin="D-" pad="10"/>
+<connect gate="G$1" pin="GND" pad="7"/>
+<connect gate="G$1" pin="MODE" pad="1"/>
+<connect gate="G$1" pin="NC" pad="8"/>
+<connect gate="G$1" pin="RCV" pad="3"/>
+<connect gate="G$1" pin="SPEED" pad="9"/>
+<connect gate="G$1" pin="SUSPND" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+<connect gate="G$1" pin="VM" pad="5"/>
+<connect gate="G$1" pin="VMO/FSE0" pad="13"/>
+<connect gate="G$1" pin="VP" pad="4"/>
+<connect gate="G$1" pin="VPO" pad="12"/>
 </connects>
 <technologies>
 <technology name=""/>
