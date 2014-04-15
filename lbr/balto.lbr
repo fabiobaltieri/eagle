@@ -4560,6 +4560,72 @@ Philips Semiconductors, SOT343R.pdf</description>
 <wire x1="1.5" y1="-5" x2="1.5" y2="-3.1" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-5" x2="-1.5" y2="-3.1" width="0.127" layer="21"/>
 </package>
+<package name="14-SEG">
+<description>&lt;b&gt;14 Segment Dispaly&lt;/b&gt;</description>
+<text x="-11.71" y="8.58" size="1.27" layer="25">&gt;NAME</text>
+<pad name="5" x="0" y="-7.62" drill="0.635"/>
+<pad name="14" x="0" y="7.62" drill="0.635"/>
+<pad name="15" x="-2.54" y="7.62" drill="0.635"/>
+<pad name="16" x="-5.08" y="7.62" drill="0.635"/>
+<pad name="17" x="-7.62" y="7.62" drill="0.635"/>
+<pad name="13" x="2.54" y="7.62" drill="0.635"/>
+<pad name="12" x="5.08" y="7.62" drill="0.635"/>
+<pad name="11" x="7.62" y="7.62" drill="0.635"/>
+<pad name="10" x="10.16" y="7.62" drill="0.635"/>
+<pad name="18" x="-10.16" y="7.62" drill="0.635"/>
+<pad name="1" x="-10.16" y="-7.62" drill="0.635"/>
+<pad name="2" x="-7.62" y="-7.62" drill="0.635"/>
+<pad name="3" x="-5.08" y="-7.62" drill="0.635"/>
+<pad name="4" x="-2.54" y="-7.62" drill="0.635"/>
+<pad name="6" x="2.54" y="-7.62" drill="0.635"/>
+<pad name="7" x="5.08" y="-7.62" drill="0.635"/>
+<pad name="8" x="7.62" y="-7.62" drill="0.635"/>
+<pad name="9" x="10.16" y="-7.62" drill="0.635"/>
+<wire x1="-12.56" y1="10.575" x2="-12.56" y2="-10.575" width="0.127" layer="21"/>
+<wire x1="-12.56" y1="-10.575" x2="12.56" y2="-10.575" width="0.127" layer="21"/>
+<wire x1="12.56" y1="-10.575" x2="12.56" y2="10.575" width="0.127" layer="21"/>
+<wire x1="12.56" y1="10.575" x2="-12.56" y2="10.575" width="0.127" layer="21"/>
+<wire x1="-8" y1="-4" x2="-7.5" y2="-0.5" width="0.254" layer="21"/>
+<wire x1="-7.5" y1="0.5" x2="-7" y2="4" width="0.254" layer="21"/>
+<wire x1="-7" y1="0" x2="-6" y2="0" width="0.254" layer="21"/>
+<wire x1="-5" y1="0" x2="-4" y2="0" width="0.254" layer="21"/>
+<wire x1="-5.5" y1="0.5" x2="-5" y2="4" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="0.5" x2="-3" y2="4" width="0.254" layer="21"/>
+<wire x1="-4" y1="-4" x2="-3.5" y2="-0.5" width="0.254" layer="21"/>
+<wire x1="-6" y1="-4" x2="-5.5" y2="-0.5" width="0.254" layer="21"/>
+<wire x1="-7.5" y1="-4.5" x2="-6.5" y2="-4.5" width="0.254" layer="21"/>
+<wire x1="-5.5" y1="-4.5" x2="-4.5" y2="-4.5" width="0.254" layer="21"/>
+<wire x1="-6.5" y1="4.5" x2="-5.5" y2="4.5" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="4.5" x2="-3.5" y2="4.5" width="0.254" layer="21"/>
+<wire x1="-6" y1="1" x2="-6.5" y2="3.5" width="0.254" layer="21"/>
+<wire x1="-4.5" y1="-3.5" x2="-5" y2="-1" width="0.254" layer="21"/>
+<wire x1="-3.5" y1="3.5" x2="-5" y2="1" width="0.254" layer="21"/>
+<wire x1="-6" y1="-1" x2="-7.5" y2="-3.5" width="0.254" layer="21"/>
+<wire x1="-2.5" y1="-4.5" x2="-2.5" y2="-4" width="0.254" layer="21"/>
+<wire x1="-2.5" y1="-4" x2="-2" y2="-4" width="0.254" layer="21"/>
+<wire x1="-2" y1="-4" x2="-2" y2="-4.5" width="0.254" layer="21"/>
+<wire x1="-2" y1="-4.5" x2="-2.5" y2="-4.5" width="0.254" layer="21"/>
+<wire x1="3" y1="-4" x2="3.5" y2="-0.5" width="0.254" layer="21"/>
+<wire x1="3.5" y1="0.5" x2="4" y2="4" width="0.254" layer="21"/>
+<wire x1="4" y1="0" x2="5" y2="0" width="0.254" layer="21"/>
+<wire x1="6" y1="0" x2="7" y2="0" width="0.254" layer="21"/>
+<wire x1="5.5" y1="0.5" x2="6" y2="4" width="0.254" layer="21"/>
+<wire x1="7.5" y1="0.5" x2="8" y2="4" width="0.254" layer="21"/>
+<wire x1="7" y1="-4" x2="7.5" y2="-0.5" width="0.254" layer="21"/>
+<wire x1="5" y1="-4" x2="5.5" y2="-0.5" width="0.254" layer="21"/>
+<wire x1="3.5" y1="-4.5" x2="4.5" y2="-4.5" width="0.254" layer="21"/>
+<wire x1="5.5" y1="-4.5" x2="6.5" y2="-4.5" width="0.254" layer="21"/>
+<wire x1="4.5" y1="4.5" x2="5.5" y2="4.5" width="0.254" layer="21"/>
+<wire x1="6.5" y1="4.5" x2="7.5" y2="4.5" width="0.254" layer="21"/>
+<wire x1="5" y1="1" x2="4.5" y2="3.5" width="0.254" layer="21"/>
+<wire x1="6.5" y1="-3.5" x2="6" y2="-1" width="0.254" layer="21"/>
+<wire x1="7.5" y1="3.5" x2="6" y2="1" width="0.254" layer="21"/>
+<wire x1="5" y1="-1" x2="3.5" y2="-3.5" width="0.254" layer="21"/>
+<wire x1="8.5" y1="-4.5" x2="8.5" y2="-4" width="0.254" layer="21"/>
+<wire x1="8.5" y1="-4" x2="9" y2="-4" width="0.254" layer="21"/>
+<wire x1="9" y1="-4" x2="9" y2="-4.5" width="0.254" layer="21"/>
+<wire x1="9" y1="-4.5" x2="8.5" y2="-4.5" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="52437-2491">
@@ -7221,6 +7287,32 @@ OTG, Ethernet, 10 timers, 2 CANs, 2 ADCs, 14 communication interfaces</descripti
 <text x="5.08" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+" x="0" y="2.54" visible="pad" length="short" direction="pas" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="14-SEG">
+<description>&lt;b&gt;14 Segment Dispaly&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-25.4" x2="5.08" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-25.4" x2="5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="22.86" x2="-5.08" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="22.86" x2="-5.08" y2="-25.4" width="0.254" layer="94"/>
+<text x="-2.54" y="25.4" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-2.54" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-7.62" y="20.32" length="short"/>
+<pin name="B" x="-7.62" y="17.78" length="short"/>
+<pin name="C" x="-7.62" y="15.24" length="short"/>
+<pin name="D" x="-7.62" y="12.7" length="short"/>
+<pin name="E" x="-7.62" y="10.16" length="short"/>
+<pin name="F" x="-7.62" y="7.62" length="short"/>
+<pin name="G" x="-7.62" y="5.08" length="short"/>
+<pin name="H" x="-7.62" y="2.54" length="short"/>
+<pin name="J" x="-7.62" y="0" length="short"/>
+<pin name="K" x="-7.62" y="-2.54" length="short"/>
+<pin name="L" x="-7.62" y="-5.08" length="short"/>
+<pin name="M" x="-7.62" y="-7.62" length="short"/>
+<pin name="N" x="-7.62" y="-10.16" length="short"/>
+<pin name="P" x="-7.62" y="-12.7" length="short"/>
+<pin name="DP" x="-7.62" y="-15.24" length="short"/>
+<pin name="COM_L" x="-7.62" y="-20.32" length="short"/>
+<pin name="COM_R" x="-7.62" y="-22.86" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9991,6 +10083,38 @@ End launch SMA connector.</description>
 <connects>
 <connect gate="G$1" pin="+" pad="P"/>
 <connect gate="G$1" pin="-" pad="M"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="14-SEG" prefix="D">
+<description>&lt;b&gt;14 Segment Dispaly&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="14-SEG" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="14-SEG">
+<connects>
+<connect gate="G$1" pin="A" pad="12"/>
+<connect gate="G$1" pin="B" pad="10"/>
+<connect gate="G$1" pin="C" pad="9"/>
+<connect gate="G$1" pin="COM_L" pad="16"/>
+<connect gate="G$1" pin="COM_R" pad="11"/>
+<connect gate="G$1" pin="D" pad="7"/>
+<connect gate="G$1" pin="DP" pad="8"/>
+<connect gate="G$1" pin="E" pad="1"/>
+<connect gate="G$1" pin="F" pad="18"/>
+<connect gate="G$1" pin="G" pad="15"/>
+<connect gate="G$1" pin="H" pad="14"/>
+<connect gate="G$1" pin="J" pad="6"/>
+<connect gate="G$1" pin="K" pad="5"/>
+<connect gate="G$1" pin="L" pad="4"/>
+<connect gate="G$1" pin="M" pad="2"/>
+<connect gate="G$1" pin="N" pad="13"/>
+<connect gate="G$1" pin="P" pad="17"/>
 </connects>
 <technologies>
 <technology name=""/>
