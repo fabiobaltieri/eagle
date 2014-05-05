@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4650,6 +4650,27 @@ Philips Semiconductors, SOT343R.pdf</description>
 <wire x1="-1.3" y1="-0.6" x2="-1.3" y2="-0.8" width="0.127" layer="21"/>
 <text x="-0.8" y="-0.2" size="0.4064" layer="25">&gt;NAME</text>
 </package>
+<package name="10SON">
+<smd name="3" x="0" y="-1.475" dx="0.28" dy="0.85" layer="1"/>
+<smd name="8" x="0" y="1.475" dx="0.28" dy="0.85" layer="1"/>
+<smd name="7" x="0.5" y="1.475" dx="0.28" dy="0.85" layer="1"/>
+<smd name="4" x="0.5" y="-1.475" dx="0.28" dy="0.85" layer="1"/>
+<smd name="2" x="-0.5" y="-1.475" dx="0.28" dy="0.85" layer="1"/>
+<smd name="9" x="-0.5" y="1.475" dx="0.28" dy="0.85" layer="1"/>
+<smd name="10" x="-1" y="1.475" dx="0.28" dy="0.85" layer="1"/>
+<smd name="6" x="1" y="1.475" dx="0.28" dy="0.85" layer="1"/>
+<smd name="5" x="1" y="-1.475" dx="0.28" dy="0.85" layer="1"/>
+<smd name="1" x="-1" y="-1.475" dx="0.28" dy="0.85" layer="1"/>
+<smd name="TH" x="0" y="0" dx="2.4" dy="1.65" layer="1"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="-1.55" y2="1.55" width="0.127" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="-1.55" y2="-1.55" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.3" x2="-1.1" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-1.3" x2="-1.1" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-1.1" x2="-1.3" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-1.1" x2="-1.3" y2="-1.3" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="52437-2491">
@@ -7359,6 +7380,26 @@ OTG, Ethernet, 10 timers, 2 CANs, 2 ADCs, 14 communication interfaces</descripti
 <pin name="MODE" x="-17.78" y="-7.62" length="short"/>
 <pin name="NSLEEP" x="-17.78" y="-10.16" length="short"/>
 <pin name="TH" x="17.78" y="-10.16" length="short" rot="R180"/>
+</symbol>
+<symbol name="DRV8830">
+<description>&lt;b&gt;Low voltage motor driver with serial interface&lt;/b&gt;</description>
+<wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="15.24" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="TH" x="12.7" y="-10.16" length="short" rot="R180"/>
+<pin name="OUT2" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="ISENSE" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="OUT1" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="VCC" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="GND" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="FAULTN" x="-12.7" y="2.54" length="short"/>
+<pin name="A0" x="-12.7" y="-7.62" length="short"/>
+<pin name="A1" x="-12.7" y="-10.16" length="short"/>
+<pin name="SDA" x="-12.7" y="7.62" length="short"/>
+<pin name="SCL" x="-12.7" y="10.16" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10189,6 +10230,32 @@ End launch SMA connector.</description>
 <connect gate="G$1" pin="NSLEEP" pad="12"/>
 <connect gate="G$1" pin="TH" pad="TH"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DRV8830">
+<description>&lt;b&gt;Low voltage motor driver with serial interface&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRV8830" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10SON">
+<connects>
+<connect gate="G$1" pin="A0" pad="7"/>
+<connect gate="G$1" pin="A1" pad="8"/>
+<connect gate="G$1" pin="FAULTN" pad="6"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="ISENSE" pad="2"/>
+<connect gate="G$1" pin="OUT1" pad="3"/>
+<connect gate="G$1" pin="OUT2" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="10"/>
+<connect gate="G$1" pin="SDA" pad="9"/>
+<connect gate="G$1" pin="TH" pad="TH"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
