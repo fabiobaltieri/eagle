@@ -10269,7 +10269,7 @@ End launch SMA connector.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DRV8830">
+<deviceset name="DRV8830" prefix="U">
 <description>&lt;b&gt;Low voltage motor driver with serial interface&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="DRV8830" x="0" y="0"/>
