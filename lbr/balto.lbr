@@ -5555,6 +5555,24 @@ Source: http://v4.cypress.com/cfuploads/img/products/cywusb6934.pdf</description
 <smd name="GND@0" x="-0.889" y="0" dx="0.762" dy="4.445" layer="1"/>
 <text x="-1.778" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="DFN6">
+<wire x1="-1" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<smd name="1" x="-0.5" y="-0.9125" dx="0.25" dy="0.675" layer="1"/>
+<smd name="2" x="0" y="-0.9125" dx="0.25" dy="0.675" layer="1"/>
+<smd name="3" x="0.5" y="-0.9125" dx="0.25" dy="0.675" layer="1"/>
+<smd name="4" x="0.5" y="0.9125" dx="0.25" dy="0.675" layer="1"/>
+<smd name="5" x="0" y="0.9125" dx="0.25" dy="0.675" layer="1"/>
+<smd name="6" x="-0.5" y="0.9125" dx="0.25" dy="0.675" layer="1"/>
+<smd name="TH" x="0" y="0" dx="1.42" dy="0.61" layer="1"/>
+<wire x1="-0.875" y1="-0.875" x2="-0.875" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="-0.875" y1="-0.75" x2="-0.75" y2="-0.75" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="-0.75" x2="-0.75" y2="-0.875" width="0.127" layer="21"/>
+<wire x1="-0.75" y1="-0.875" x2="-0.875" y2="-0.875" width="0.127" layer="21"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="52437-2491">
@@ -8441,6 +8459,21 @@ nRF24L01, nRF24L01+, nRF24LE1, nRF24LU1, nRF24AP2, and nRF8001&lt;/b&gt;</descri
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <text x="-7.62" y="7.62" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
 <text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LTC4065A">
+<description>&lt;b&gt;Standalone 750mA Li-Ion Battery Charger in 2 × 2 DFN&lt;/b&gt;</description>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="!CHRG" x="-12.7" y="-5.08" length="short"/>
+<pin name="BAT" x="12.7" y="5.08" length="short" rot="R180"/>
+<pin name="VCC" x="-12.7" y="5.08" length="short"/>
+<pin name="!EN!/!ACPR" x="-12.7" y="-2.54" length="short"/>
+<pin name="PROG" x="12.7" y="0" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11516,6 +11549,27 @@ nRF24L01, nRF24L01+, nRF24LE1, nRF24LU1, nRF24AP2, and nRF8001&lt;/b&gt;</descri
 <connect gate="G$1" pin="B" pad="B"/>
 <connect gate="G$1" pin="GND@0" pad="GND@0"/>
 <connect gate="G$1" pin="GND@1" pad="GND@1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTC4065A" prefix="U">
+<description>&lt;b&gt;Standalone 750mA Li-Ion Battery Charger in 2 × 2 DFN&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="LTC4065A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN6">
+<connects>
+<connect gate="G$1" pin="!CHRG" pad="2"/>
+<connect gate="G$1" pin="!EN!/!ACPR" pad="5"/>
+<connect gate="G$1" pin="BAT" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1 TH"/>
+<connect gate="G$1" pin="PROG" pad="6"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
