@@ -5689,6 +5689,14 @@ Source: http://v4.cypress.com/cfuploads/img/products/cywusb6934.pdf</description
 <wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.127" layer="21"/>
 <circle x="-2.1" y="-1.2" radius="0.22360625" width="0" layer="21"/>
 </package>
+<package name="SMA-EDGE-2">
+<description>&lt;b&gt;SMA RF Connector Edge Mounted&lt;/b&gt;</description>
+<smd name="FEED" x="0" y="0" dx="4.064" dy="1.524" layer="1"/>
+<smd name="M1" x="0" y="-2.54" dx="4.064" dy="1.524" layer="1"/>
+<smd name="M4" x="0" y="2.54" dx="4.064" dy="1.524" layer="1"/>
+<smd name="M3" x="0" y="2.54" dx="4.064" dy="1.524" layer="16"/>
+<smd name="M2" x="0" y="-2.54" dx="4.064" dy="1.524" layer="16"/>
+</package>
 </packages>
 <symbols>
 <symbol name="52437-2491">
@@ -11337,10 +11345,19 @@ End launch SMA connector.</description>
 <gate name="1" symbol="SMA_EDGE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SMA-EDGE">
+<device name="A" package="SMA-EDGE">
 <connects>
 <connect gate="1" pin="FEED" pad="FEED"/>
 <connect gate="1" pin="GND" pad="GND@0 GND@1 GND@2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="SMA-EDGE-2">
+<connects>
+<connect gate="1" pin="FEED" pad="FEED"/>
+<connect gate="1" pin="GND" pad="M1 M2 M3 M4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11873,7 +11890,7 @@ nRF24L01, nRF24L01+, nRF24LE1, nRF24LU1, nRF24AP2, and nRF8001&lt;/b&gt;</descri
 </device>
 </devices>
 </deviceset>
-<deviceset name="LDO-5PIN" prefix="U">
+<deviceset name="LDO-5PIN" prefix="U" uservalue="yes">
 <description>&lt;b&gt;Generic 5 pin single fixed output LDO&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="LDO-5PIN" x="0" y="0"/>
