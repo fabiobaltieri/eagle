@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -196,34 +196,6 @@
 <vertex x="-1.35" y="0.25" curve="17.14621"/>
 <vertex x="-1.25" y="0.15" curve="30.558432"/>
 <vertex x="-1.1" y="0.1" curve="59.189843"/>
-</polygon>
-</package>
-<package name="CS">
-<polygon width="0.127" layer="21">
-<vertex x="-0.040640625" y="0.497840625" curve="-24.51811"/>
-<vertex x="0.508" y="0.396240625" curve="-30.750261"/>
-<vertex x="0.853440625" y="0.03048125" curve="-59.913073"/>
-<vertex x="0.853440625" y="-0.762" curve="-49.924604"/>
-<vertex x="0.365759375" y="-1.1684" curve="-33.66811"/>
-<vertex x="-0.02031875" y="-1.209040625" curve="15.943887"/>
-<vertex x="-0.02031875" y="-1.18871875" curve="28.86848"/>
-<vertex x="0.365759375" y="-0.701040625" curve="25.080061"/>
-<vertex x="0.467359375" y="-0.416559375" curve="29.654432"/>
-<vertex x="0.42671875" y="-0.17271875" curve="32.730229"/>
-<vertex x="0.22351875" y="0.17271875" curve="13.992327"/>
-<vertex x="0.040640625" y="0.37591875" curve="-30.586299"/>
-</polygon>
-<polygon width="0.127" layer="21">
-<vertex x="-0.040640625" y="-0.213359375" curve="-36.128795"/>
-<vertex x="-0.02031875" y="-0.27431875" curve="-52.5463"/>
-<vertex x="-0.12191875" y="-0.314959375" curve="-57.739294"/>
-<vertex x="-0.89408125" y="0.193040625" curve="-55.579457"/>
-<vertex x="-0.89408125" y="0.94488125" curve="-60.409737"/>
-<vertex x="-0.08128125" y="1.45288125" curve="-93.553897"/>
-<vertex x="-0.02031875" y="1.39191875" curve="27.548985"/>
-<vertex x="-0.447040625" y="0.822959375" curve="46.190762"/>
-<vertex x="-0.447040625" y="0.37591875" curve="22.12906"/>
-<vertex x="-0.060959375" y="-0.193040625" curve="-0.448791"/>
 </polygon>
 </package>
 </packages>
