@@ -5760,7 +5760,7 @@ https://media.digikey.com/pdf/Data%20Sheets/Coto%20Technology%20PDFS/CT05.pdf</d
 <package name="0900AT43A0070-W">
 <description>&lt;b&gt;Johanson 868 and 915MHz dual (wideband) ISM band SMD chip antenna - wide layout&lt;/b&gt;</description>
 <wire x1="-12.15" y1="0" x2="12.15" y2="0" width="0.127" layer="51"/>
-<text x="-12" y="1" size="1" layer="21" align="center-left">No GND</text>
+<text x="-12" y="1" size="1" layer="51" align="center-left">No GND</text>
 <smd name="FEED" x="11.25" y="2" dx="1.8" dy="1" layer="1"/>
 <smd name="NC" x="11.25" y="9.2" dx="1.8" dy="1.4" layer="1"/>
 <wire x1="10.35" y1="2" x2="12.15" y2="2" width="0.127" layer="21"/>
@@ -5778,7 +5778,7 @@ https://media.digikey.com/pdf/Data%20Sheets/Coto%20Technology%20PDFS/CT05.pdf</d
 <package name="0900AT43A0070-N">
 <description>&lt;b&gt;Johanson 868 and 915MHz dual (wideband) ISM band SMD chip antenna - narrow layout&lt;/b&gt;</description>
 <wire x1="-7.4" y1="0" x2="7.4" y2="0" width="0.127" layer="51"/>
-<text x="-7" y="1" size="1" layer="21" align="center-left">No GND</text>
+<text x="-7" y="1" size="1" layer="51" align="center-left">No GND</text>
 <smd name="FEED" x="6.5" y="2" dx="1.8" dy="1" layer="1"/>
 <smd name="NC" x="6.5" y="9.2" dx="1.8" dy="1.4" layer="1"/>
 <wire x1="5.6" y1="2" x2="7.4" y2="2" width="0.127" layer="21"/>
