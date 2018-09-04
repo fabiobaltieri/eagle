@@ -1,4 +1,4 @@
-description[en] = <b>Fabio Baltieri's Design Rules</b>\n<p>\nOSH Park compatible
+description[en] = <b>Fabio Baltieri's Design Rules</b>\n<p>OSH Park compatible\n<p>2 Layers: 6 mil clearence, width, annular, 10 mil drill\n<p>4 Layers: 5 mil clearence, width, 10 mil drill, 4 mil annular
 layerSetup = (1*16)
 mtCopper = 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm
 mtIsolate = 1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm
