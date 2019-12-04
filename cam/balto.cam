@@ -1,192 +1,308 @@
-[CAM Processor Job]
-Description[en]="<b>Generates Extended Gerber Format</b><p>\nThis CAM job consists of five sections that generate data for a two layer board.<p><p>\nYou will get five gerber files that contain data for:<br>\ncomponent side *.cmp<br>\nsolder side  *.sol<br>\nsilkscreen component side  *.plc<br>\nsolder stop component side  *.stc<br>\nsolder stop solder sid  *.sts<br>"
-Section=Sec_1
-Section=Sec_2
-Section=Sec_3
-Section=Sec_4
-Section=Sec_5
-Section=Sec_6
-Section=Sec_7
-Section=Sec_8
-Section=Sec_9
-Section=Sec_10
-
-[Sec_1]
-Name[en]="Top Layer"
-Prompt=""
-Device="GERBER_RS274X"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".gtl"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 1 17 18"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
-
-[Sec_2]
-Name[en]="Bottom Layer"
-Prompt=""
-Device="GERBER_RS274X"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".gbl"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 16 17 18"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
-
-[Sec_3]
-Name[en]="Top Silkscreen"
-Prompt=""
-Device="GERBER_RS274X"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".gto"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 21 121"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
-
-[Sec_4]
-Name[en]="Bottom Silkscreen"
-Prompt=""
-Device="GERBER_RS274X"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".gbo"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 22 122"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
-
-[Sec_5]
-Name[en]="Board Outline"
-Prompt=""
-Device="GERBER_RS274X"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".gko"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 20"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
-
-[Sec_6]
-Name[en]="Top Soldermask"
-Prompt=""
-Device="GERBER_RS274X"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".gts"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 29"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
-
-[Sec_7]
-Name[en]="Bottom Soldermask"
-Prompt=""
-Device="GERBER_RS274X"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".gbs"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 30"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
-
-[Sec_8]
-Name[en]="Top Stencil"
-Prompt=""
-Device="GERBER_RS274X"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".creamtop"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 31"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
-
-[Sec_9]
-Name[en]="Bottom Stencil"
-Prompt=""
-Device="GERBER_RS274X"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".creambot"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 32"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
-
-[Sec_10]
-Name[en]="Drills"
-Prompt=""
-Device="EXCELLON_24"
-Wheel=".whl"
-Rack=""
-Scale=1
-Output=".xln"
-Flags="0 0 0 1 0 1 1"
-Emulate="0"
-Offset="0.0mil 0.0mil"
-Sheet=1
-Tolerance="0 0 0 0 0 0"
-Pen="0.0mil 0"
-Page="12000.0mil 8000.0mil"
-Layers=" 44 45"
-Colors=" 1 2 1 2 1 2 1 2 1 2 1 2 1 2 1 2 6 6 4 8 8 8 8 8 8 8 8 8 8 8 8 8 4 4 1 1 1 1 3 3 1 2 6 8 8 5 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4 2 4 3 6 6 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0"
+{
+    "author": {
+        "email": "baltoo@gmail.com",
+        "name": "Fabio Baltieri"
+    },
+    "description": {
+        "EN": "CAM job for <a href=\"https://oshpark.com\">OSHPark</a>'s 2 layer PCB services."
+    },
+    "output_type": "zip",
+    "outputs": [
+        {
+            "filename_prefix": "oshpark-2layer",
+            "format_specifier": {
+                "decimal": 6,
+                "integer": 3
+            },
+            "generate_job_file": true,
+            "output_type": "gerber",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": true,
+                    "config": {
+                        "file_function": "Profile",
+                        "plating": "non-plated"
+                    },
+                    "filename_format": "%N.boardoutline.ger",
+                    "layers": [
+                    ],
+                    "milling": true,
+                    "name": "Board Outline",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Paste",
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%N.toppaste.ger",
+                    "layers": [
+                        31
+                    ],
+                    "milling": false,
+                    "name": "Top Solder Paste",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Legend",
+                        "index": 1,
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%N.topsilkscreen.ger",
+                    "layers": [
+                        21,
+                        121
+                    ],
+                    "milling": false,
+                    "name": "Top Silkscreen ",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Soldermask",
+                        "layer_type": "top",
+                        "layers": [
+                            29
+                        ],
+                        "polarity": "positive"
+                    },
+                    "filename_format": "%N.topsoldermask.ger",
+                    "layers": [
+                        29
+                    ],
+                    "milling": false,
+                    "name": "Top Solder Mask",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 1,
+                        "layer_details": "mixed",
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%N.toplayer.ger",
+                    "layers": [
+                        1,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "Top Copper Layer",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 2,
+                        "layer_details": "mixed",
+                        "layer_type": "Bottom"
+                    },
+                    "filename_format": "%N.bottomlayer.ger",
+                    "layers": [
+                        16,
+                        17,
+                        18
+                    ],
+                    "milling": false,
+                    "name": "Bottom Copper Layer",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Soldermask",
+                        "layer_type": "Bottom",
+                        "layers": [
+                            30
+                        ],
+                        "polarity": "positive"
+                    },
+                    "filename_format": "%N.bottomsoldermask.ger",
+                    "layers": [
+                        30
+                    ],
+                    "milling": false,
+                    "name": "Bottom Solder Mask",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Legend",
+                        "index": 1,
+                        "layer_type": "Bottom"
+                    },
+                    "filename_format": "%N.bottomsilkscreen.ger",
+                    "layers": [
+                        22,
+                        122
+                    ],
+                    "milling": false,
+                    "name": "Bottom Silkscreen",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Paste",
+                        "layer_type": "Bottom"
+                    },
+                    "filename_format": "%N.bottompaste.ger",
+                    "layers": [
+                        32
+                    ],
+                    "milling": false,
+                    "name": "Bottom Solder Paste",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                }
+            ],
+            "version": "X2"
+        },
+        {
+            "format_specifier": {
+                "decimal": 4,
+                "integer": 2
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "drills": {
+                        "NPTH": false,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "%N.plated.drills.xln",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Plated Drills",
+                    "type": "excellon"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": false,
+                        "VIA": false
+                    },
+                    "filename_format": "%N.nonplated.drills.xln",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Nonplated Drills",
+                    "type": "excellon"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/Assembly",
+            "output_type": "assembly",
+            "outputs": [
+            ]
+        },
+        {
+            "filename_prefix": "CAMOutputs/DrawingFiles",
+            "output_type": "drawing",
+            "outputs": [
+            ]
+        }
+    ],
+    "timestamp": "2019-12-04T08:41:37",
+    "type": "EAGLE CAM job",
+    "units": "imperial",
+    "version": "8.6.0"
+}
