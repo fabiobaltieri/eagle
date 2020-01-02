@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9314,6 +9314,48 @@ http://www.ti.com/lit/ds/symlink/tlc5917.pdf</description>
 <pin name="R-EXT" x="-12.7" y="-5.08" length="short"/>
 <pin name="VDD" x="-12.7" y="12.7" length="short"/>
 </symbol>
+<symbol name="NRF52811">
+<description>&lt;b&gt;nRF52811&lt;/b&gt;</description>
+<wire x1="-12.7" y1="-27.94" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-27.94" x2="12.7" y2="27.94" width="0.254" layer="94"/>
+<wire x1="12.7" y1="27.94" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="27.94" x2="-12.7" y2="-27.94" width="0.254" layer="94"/>
+<pin name="DEC1" x="-15.24" y="15.24" length="short"/>
+<pin name="P0.00/XL1" x="-15.24" y="-12.7" length="short"/>
+<pin name="P0.01/XL2" x="-15.24" y="-15.24" length="short"/>
+<pin name="P0.04/AIN2" x="15.24" y="22.86" length="short" rot="R180"/>
+<pin name="P0.05/AIN3" x="15.24" y="20.32" length="short" rot="R180"/>
+<pin name="P0.06" x="15.24" y="17.78" length="short" rot="R180"/>
+<pin name="P0.09" x="15.24" y="15.24" length="short" rot="R180"/>
+<pin name="P0.10" x="15.24" y="12.7" length="short" rot="R180"/>
+<pin name="VDD" x="-15.24" y="25.4" length="short"/>
+<pin name="P0.12" x="15.24" y="10.16" length="short" rot="R180"/>
+<pin name="P0.14" x="15.24" y="7.62" length="short" rot="R180"/>
+<pin name="P0.15" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="P0.16" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="P0.18" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="P0.20" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="P0.21/NRESET" x="-15.24" y="-2.54" length="short"/>
+<pin name="SWCLK" x="15.24" y="-22.86" length="short" rot="R180"/>
+<pin name="SWDIO" x="15.24" y="-20.32" length="short" rot="R180"/>
+<pin name="ANT" x="15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="VSS" x="-15.24" y="-20.32" length="short"/>
+<pin name="DEC2" x="-15.24" y="12.7" length="short"/>
+<pin name="DEC3" x="-15.24" y="10.16" length="short"/>
+<pin name="XC1" x="-15.24" y="-7.62" length="short"/>
+<pin name="XC2" x="-15.24" y="-10.16" length="short"/>
+<pin name="VDD@1" x="-15.24" y="22.86" length="short"/>
+<pin name="P0.25" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="P0.28/AIN4" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="P0.30/AIN6" x="15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="VSS@1" x="-15.24" y="-22.86" length="short"/>
+<pin name="DEC4" x="-15.24" y="7.62" length="short"/>
+<pin name="DCC" x="-15.24" y="2.54" length="short"/>
+<pin name="VDD@2" x="-15.24" y="20.32" length="short"/>
+<pin name="TH" x="-15.24" y="-25.4" length="short"/>
+<text x="-10.16" y="30.48" size="1.778" layer="104" rot="MR180">&gt;NAME</text>
+<text x="-10.16" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="52437-2491" prefix="JP">
@@ -12958,6 +13000,54 @@ http://www.ti.com/lit/ds/symlink/tlc5917.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NRF52811" prefix="U">
+<description>&lt;b&gt;nRF52811&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="NRF52811" x="0" y="0"/>
+</gates>
+<devices>
+<device name="QCAA" package="MLF32-TH">
+<connects>
+<connect gate="G$1" pin="ANT" pad="19"/>
+<connect gate="G$1" pin="DCC" pad="31"/>
+<connect gate="G$1" pin="DEC1" pad="1"/>
+<connect gate="G$1" pin="DEC2" pad="21"/>
+<connect gate="G$1" pin="DEC3" pad="22"/>
+<connect gate="G$1" pin="DEC4" pad="30"/>
+<connect gate="G$1" pin="P0.00/XL1" pad="2"/>
+<connect gate="G$1" pin="P0.01/XL2" pad="3"/>
+<connect gate="G$1" pin="P0.04/AIN2" pad="4"/>
+<connect gate="G$1" pin="P0.05/AIN3" pad="5"/>
+<connect gate="G$1" pin="P0.06" pad="6"/>
+<connect gate="G$1" pin="P0.09" pad="7"/>
+<connect gate="G$1" pin="P0.10" pad="8"/>
+<connect gate="G$1" pin="P0.12" pad="10"/>
+<connect gate="G$1" pin="P0.14" pad="11"/>
+<connect gate="G$1" pin="P0.15" pad="12"/>
+<connect gate="G$1" pin="P0.16" pad="13"/>
+<connect gate="G$1" pin="P0.18" pad="14"/>
+<connect gate="G$1" pin="P0.20" pad="15"/>
+<connect gate="G$1" pin="P0.21/NRESET" pad="16"/>
+<connect gate="G$1" pin="P0.25" pad="26"/>
+<connect gate="G$1" pin="P0.28/AIN4" pad="27"/>
+<connect gate="G$1" pin="P0.30/AIN6" pad="28"/>
+<connect gate="G$1" pin="SWCLK" pad="17"/>
+<connect gate="G$1" pin="SWDIO" pad="18"/>
+<connect gate="G$1" pin="TH" pad="TH"/>
+<connect gate="G$1" pin="VDD" pad="9"/>
+<connect gate="G$1" pin="VDD@1" pad="25"/>
+<connect gate="G$1" pin="VDD@2" pad="32"/>
+<connect gate="G$1" pin="VSS" pad="20"/>
+<connect gate="G$1" pin="VSS@1" pad="29"/>
+<connect gate="G$1" pin="XC1" pad="23"/>
+<connect gate="G$1" pin="XC2" pad="24"/>
 </connects>
 <technologies>
 <technology name=""/>
