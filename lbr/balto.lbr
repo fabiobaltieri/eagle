@@ -6138,6 +6138,36 @@ MAX3223-MAX3243.pdf</description>
 <smd name="9" x="-0.5" y="1.4125" dx="0.25" dy="0.675" layer="1"/>
 <smd name="10" x="-1" y="1.4125" dx="0.25" dy="0.675" layer="1"/>
 </package>
+<package name="SMT-INDUCTOR-7X7">
+<description>&lt;b&gt;COILCRAFT&lt;/b&gt;</description>
+<wire x1="-3.35" y1="2" x2="-2" y2="3.35" width="0.127" layer="21"/>
+<wire x1="-2" y1="3.35" x2="2" y2="3.35" width="0.127" layer="21"/>
+<wire x1="2" y1="3.35" x2="3.35" y2="2" width="0.127" layer="21"/>
+<wire x1="3.35" y1="2" x2="3.35" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.35" y1="-2" x2="2" y2="-3.35" width="0.127" layer="21"/>
+<wire x1="2" y1="-3.35" x2="-2" y2="-3.35" width="0.127" layer="21"/>
+<wire x1="-2" y1="-3.35" x2="-3.35" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.9" y1="-2.5" x2="-3.1" y2="-2.7" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="-2.7" x2="-2.7" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="-3.1" x2="-2.5" y2="-2.9" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.9" x2="2.7" y2="3.1" width="0.127" layer="21"/>
+<wire x1="2.7" y1="3.1" x2="3.1" y2="2.7" width="0.127" layer="21"/>
+<wire x1="3.1" y1="2.7" x2="2.9" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.2" x2="-2.6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-1.6" x2="-1.6" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-2.6" x2="-1.2" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="1.2" y1="2.2" x2="1.6" y2="2.6" width="0.127" layer="21"/>
+<wire x1="1.6" y1="2.6" x2="2.6" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="1.6" x2="2.2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.2" x2="1.2" y2="2.2" width="0.127" layer="21" curve="-147.220919"/>
+<wire x1="-1.2" y1="-2.2" x2="2.2" y2="1.2" width="0.127" layer="21" curve="147.220919"/>
+<wire x1="-3.35" y1="-2" x2="-3.35" y2="2" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.7691" width="0.127" layer="21"/>
+<smd name="P$1" x="-2.325" y="0" dx="2.65" dy="7.3" layer="1" rot="R180"/>
+<smd name="P$2" x="2.324" y="0" dx="2.65" dy="7.3" layer="1" rot="R180"/>
+<text x="-2.54" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="52437-2491">
@@ -9968,7 +9998,16 @@ http://www.ti.com/lit/ds/symlink/tlc5917.pdf</description>
 <gate name="G$1" symbol="L-EURO" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SMT-INDUCTOR-6X6">
+<device name="6X6" package="SMT-INDUCTOR-6X6">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="7X7" package="SMT-INDUCTOR-7X7">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
