@@ -4279,6 +4279,7 @@ https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-ID
 <wire x1="-0.5" y1="0.1" x2="-0.5" y2="-0.1" width="0.2" layer="21"/>
 <wire x1="-0.5" y1="-0.1" x2="-0.9" y2="-0.1" width="0.2" layer="21"/>
 <wire x1="-0.9" y1="-0.1" x2="-0.9" y2="0.1" width="0.2" layer="21"/>
+<rectangle x1="-2" y1="-5.15" x2="2" y2="0.95" layer="42"/>
 </package>
 <package name="2450AT18D0100-R">
 <description>&lt;b&gt;2450AT18D0100&lt;/b&gt;</description>
@@ -4297,6 +4298,7 @@ https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-ID
 <wire x1="0.77" y1="0.1" x2="0.77" y2="-0.1" width="0.2" layer="21"/>
 <wire x1="0.77" y1="-0.1" x2="0.37" y2="-0.1" width="0.2" layer="21"/>
 <wire x1="0.37" y1="-0.1" x2="0.37" y2="0.1" width="0.2" layer="21"/>
+<rectangle x1="-2" y1="-5.15" x2="2" y2="0.95" layer="42"/>
 </package>
 <package name="0900AD47A2450">
 <description>&lt;b&gt;Dual Band 868-928 MHz/2.4 GHz Chip Antenna&lt;/b&gt;</description>
