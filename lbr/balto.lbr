@@ -9840,7 +9840,7 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="0900AD47A2450">
+<deviceset name="0900AD47A2450" prefix="ANT">
 <description>&lt;b&gt;Dual Band 868-928 MHz/2.4 GHz Chip Antenna&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ANTENNA_DP_GND" x="0" y="0"/>
