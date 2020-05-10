@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -2807,8 +2807,8 @@ Philips Semiconductors, SOT343R.pdf</description>
 </package>
 <package name="EZMATE-2">
 <description>&lt;b&gt;Molex Pico-EZMate&lt;/b&gt;</description>
-<smd name="1" x="-0.6" y="3.75" dx="0.6" dy="0.85" layer="1"/>
-<smd name="2" x="0.6" y="3.75" dx="0.6" dy="0.85" layer="1"/>
+<smd name="1" x="-0.6" y="3.775" dx="0.6" dy="0.85" layer="1"/>
+<smd name="2" x="0.6" y="3.775" dx="0.6" dy="0.85" layer="1"/>
 <smd name="M2" x="1.75" y="0" dx="0.7" dy="0.8" layer="1"/>
 <smd name="M1" x="-1.75" y="0" dx="0.7" dy="0.8" layer="1"/>
 <wire x1="2.1" y1="-0.6" x2="2.1" y2="3.9" width="0.127" layer="21"/>
