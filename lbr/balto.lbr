@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -4625,7 +4625,7 @@ https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-ID
 <vertex x="2.9" y="5.7"/>
 </polygon>
 </package>
-<package name="ER-CON50HT-1">
+<package name="ER-CON50*-1">
 <description>&lt;b&gt;EastRising 50pin top contact FFC connector &lt;b&gt;</description>
 <smd name="1" x="-12.25" y="0" dx="0.3" dy="1.25" layer="1"/>
 <smd name="2" x="-11.75" y="0" dx="0.3" dy="1.25" layer="1"/>
@@ -4688,7 +4688,7 @@ https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-ID
 <wire x1="-15.325" y1="-5" x2="-15.325" y2="-4.1" width="0.127" layer="21"/>
 <text x="0" y="-2.5" size="1.27" layer="25" align="center">&gt;NAME</text>
 </package>
-<package name="ER-CON06HB-1">
+<package name="ER-CON06*-1">
 <description>&lt;b&gt;EastRising 6pin bottom contact FFC connector&lt;b&gt;</description>
 <smd name="1" x="-1.25" y="0" dx="0.3" dy="1.25" layer="1"/>
 <smd name="2" x="-0.75" y="0" dx="0.3" dy="1.25" layer="1"/>
@@ -4706,6 +4706,82 @@ https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-ID
 <wire x1="4.325" y1="-5" x2="-4.325" y2="-5" width="0.127" layer="21"/>
 <wire x1="-4.325" y1="-5" x2="-4.325" y2="-4.1" width="0.127" layer="21"/>
 <text x="0" y="-2.5" size="1.27" layer="25" align="center">&gt;NAME</text>
+</package>
+<package name="ER-CON40*-1">
+<description>&lt;b&gt;EastRising 40pin top contact FFC connector &lt;b&gt;</description>
+<smd name="1" x="-9.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="2" x="-9.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="3" x="-8.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="4" x="-8.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="5" x="-7.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="6" x="-7.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="7" x="-6.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="8" x="-6.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="9" x="-5.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="10" x="-5.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="11" x="-4.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="12" x="-4.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="13" x="-3.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="14" x="-3.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="15" x="-2.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="16" x="-2.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="17" x="-1.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="18" x="-1.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="19" x="-0.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="20" x="-0.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="21" x="0.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="22" x="0.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="23" x="1.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="24" x="1.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="25" x="2.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="26" x="2.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="27" x="3.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="28" x="3.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="29" x="4.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="30" x="4.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="31" x="5.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="32" x="5.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="33" x="6.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="34" x="6.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="35" x="7.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="36" x="7.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="37" x="8.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="38" x="8.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="39" x="9.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="40" x="9.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="M2" x="11.29" y="-2.325" dx="2" dy="3" layer="1"/>
+<smd name="M1" x="-11.29" y="-2.325" dx="2" dy="3" layer="1"/>
+<wire x1="-12.175" y1="-0.5" x2="12.175" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="12.175" y1="-0.5" x2="12.175" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="-12.175" y1="-4.1" x2="-12.175" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-12.825" y1="-4.1" x2="12.825" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="12.825" y1="-4.1" x2="12.825" y2="-5" width="0.127" layer="21"/>
+<wire x1="12.825" y1="-5" x2="-12.825" y2="-5" width="0.127" layer="21"/>
+<wire x1="-12.825" y1="-5" x2="-12.825" y2="-4.1" width="0.127" layer="21"/>
+<text x="0" y="-2.5" locked="yes" size="1.27" layer="25" align="center">&gt;NAME</text>
+</package>
+<package name="ER-CON10*-1">
+<description>&lt;b&gt;EastRising 10pin top contact FFC connector &lt;b&gt;</description>
+<smd name="1" x="-2.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="2" x="-1.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="3" x="-1.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="4" x="-0.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="5" x="-0.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="6" x="0.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="7" x="0.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="8" x="1.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="9" x="1.75" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="10" x="2.25" y="0" dx="0.3" dy="1.25" layer="1"/>
+<smd name="M2" x="3.79" y="-2.325" dx="2" dy="3" layer="1"/>
+<smd name="M1" x="-3.79" y="-2.325" dx="2" dy="3" layer="1"/>
+<wire x1="-4.675" y1="-0.5" x2="4.675" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="4.675" y1="-0.5" x2="4.675" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="-4.675" y1="-4.1" x2="-4.675" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-5.325" y1="-4.1" x2="5.325" y2="-4.1" width="0.127" layer="21"/>
+<wire x1="5.325" y1="-4.1" x2="5.325" y2="-5" width="0.127" layer="21"/>
+<wire x1="5.325" y1="-5" x2="-5.325" y2="-5" width="0.127" layer="21"/>
+<wire x1="-5.325" y1="-5" x2="-5.325" y2="-4.1" width="0.127" layer="21"/>
+<text x="0" y="-2.5" locked="yes" size="1.27" layer="25" align="center">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -7342,6 +7418,78 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 <wire x1="-5.08" y1="-12.7" x2="5.08" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
 <wire x1="5.08" y1="12.7" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+</symbol>
+<symbol name="FFC10">
+<description>&lt;b&gt;FFC 10 pins&lt;/b&gt;</description>
+<pin name="1" x="-7.62" y="15.24" length="short"/>
+<pin name="2" x="-7.62" y="12.7" length="short"/>
+<pin name="3" x="-7.62" y="10.16" length="short"/>
+<pin name="4" x="-7.62" y="7.62" length="short"/>
+<pin name="5" x="-7.62" y="5.08" length="short"/>
+<pin name="6" x="-7.62" y="2.54" length="short"/>
+<pin name="PAD1" x="-7.62" y="-12.7" length="short"/>
+<pin name="PAD2" x="-7.62" y="-15.24" length="short"/>
+<text x="-5.08" y="20.32" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="17.78" x2="-5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="5.08" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-17.78" x2="5.08" y2="17.78" width="0.254" layer="94"/>
+<wire x1="5.08" y1="17.78" x2="-5.08" y2="17.78" width="0.254" layer="94"/>
+<pin name="7" x="-7.62" y="0" length="short"/>
+<pin name="8" x="-7.62" y="-2.54" length="short"/>
+<pin name="9" x="-7.62" y="-5.08" length="short"/>
+<pin name="10" x="-7.62" y="-7.62" length="short"/>
+</symbol>
+<symbol name="FFC40">
+<description>&lt;b&gt;FFC 40 pins&lt;/b&gt;</description>
+<pin name="1" x="-7.62" y="53.34" length="short"/>
+<pin name="2" x="-7.62" y="50.8" length="short"/>
+<pin name="3" x="-7.62" y="48.26" length="short"/>
+<pin name="4" x="-7.62" y="45.72" length="short"/>
+<pin name="5" x="-7.62" y="43.18" length="short"/>
+<pin name="6" x="-7.62" y="40.64" length="short"/>
+<pin name="7" x="-7.62" y="38.1" length="short"/>
+<pin name="8" x="-7.62" y="35.56" length="short"/>
+<pin name="9" x="-7.62" y="33.02" length="short"/>
+<pin name="10" x="-7.62" y="30.48" length="short"/>
+<pin name="11" x="-7.62" y="27.94" length="short"/>
+<pin name="12" x="-7.62" y="25.4" length="short"/>
+<pin name="13" x="-7.62" y="22.86" length="short"/>
+<pin name="14" x="-7.62" y="20.32" length="short"/>
+<pin name="15" x="-7.62" y="17.78" length="short"/>
+<pin name="16" x="-7.62" y="15.24" length="short"/>
+<pin name="17" x="-7.62" y="12.7" length="short"/>
+<pin name="18" x="-7.62" y="10.16" length="short"/>
+<pin name="19" x="-7.62" y="7.62" length="short"/>
+<pin name="20" x="-7.62" y="5.08" length="short"/>
+<pin name="21" x="-7.62" y="2.54" length="short"/>
+<pin name="22" x="-7.62" y="0" length="short"/>
+<pin name="23" x="-7.62" y="-2.54" length="short"/>
+<pin name="24" x="-7.62" y="-5.08" length="short"/>
+<pin name="25" x="-7.62" y="-7.62" length="short"/>
+<pin name="26" x="-7.62" y="-10.16" length="short"/>
+<pin name="27" x="-7.62" y="-12.7" length="short"/>
+<pin name="28" x="-7.62" y="-15.24" length="short"/>
+<pin name="29" x="-7.62" y="-17.78" length="short"/>
+<pin name="30" x="-7.62" y="-20.32" length="short"/>
+<pin name="31" x="-7.62" y="-22.86" length="short"/>
+<pin name="32" x="-7.62" y="-25.4" length="short"/>
+<pin name="33" x="-7.62" y="-27.94" length="short"/>
+<pin name="34" x="-7.62" y="-30.48" length="short"/>
+<pin name="35" x="-7.62" y="-33.02" length="short"/>
+<pin name="36" x="-7.62" y="-35.56" length="short"/>
+<pin name="37" x="-7.62" y="-38.1" length="short"/>
+<pin name="38" x="-7.62" y="-40.64" length="short"/>
+<pin name="39" x="-7.62" y="-43.18" length="short"/>
+<pin name="40" x="-7.62" y="-45.72" length="short"/>
+<pin name="PAD1" x="-7.62" y="-50.8" length="short"/>
+<pin name="PAD2" x="-7.62" y="-53.34" length="short"/>
+<text x="-5.08" y="58.42" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="-5.08" y="-58.42" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="55.88" x2="-5.08" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-55.88" x2="5.08" y2="-55.88" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-55.88" x2="5.08" y2="55.88" width="0.254" layer="94"/>
+<wire x1="5.08" y1="55.88" x2="-5.08" y2="55.88" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -10653,7 +10801,7 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 <gate name="G$1" symbol="FFC6" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ER-CON06HB-1">
+<device name="" package="ER-CON06*-1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -10676,7 +10824,7 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 <gate name="G$1" symbol="FFC50" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ER-CON50HT-1">
+<device name="" package="ER-CON50*-1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -10730,6 +10878,90 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 <connect gate="G$1" pin="9" pad="9"/>
 <connect gate="G$1" pin="PAD1" pad="M2"/>
 <connect gate="G$1" pin="PAD2" pad="M1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FFC10" prefix="J">
+<description>&lt;b&gt;Flat Flex Cable 10 pins&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="FFC10" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ER-CON10*-1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="PAD1" pad="M1"/>
+<connect gate="G$1" pin="PAD2" pad="M2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FFC40" prefix="J">
+<description>&lt;b&gt;Flat Flex Cable 40 pins&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="FFC40" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ER-CON40*-1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="29" pad="29"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="30" pad="30"/>
+<connect gate="G$1" pin="31" pad="31"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="34" pad="34"/>
+<connect gate="G$1" pin="35" pad="35"/>
+<connect gate="G$1" pin="36" pad="36"/>
+<connect gate="G$1" pin="37" pad="37"/>
+<connect gate="G$1" pin="38" pad="38"/>
+<connect gate="G$1" pin="39" pad="39"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="40" pad="40"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="PAD1" pad="M1"/>
+<connect gate="G$1" pin="PAD2" pad="M2"/>
 </connects>
 <technologies>
 <technology name=""/>
