@@ -5024,6 +5024,27 @@ https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-ID
 <smd name="6" x="2.4" y="3.775" dx="0.6" dy="0.85" layer="1"/>
 <smd name="7" x="3.67" y="3.775" dx="0.6" dy="0.85" layer="1"/>
 </package>
+<package name="FTSH-105">
+<description>&lt;b&gt;FTSH-105-XX-XXX-DV-X&lt;/b&gt;</description>
+<wire x1="-3.175" y1="-1.715" x2="3.175" y2="-1.715" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="1.715" x2="3.175" y2="1.715" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-1.715" x2="-3.175" y2="1.715" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.127" layer="21"/>
+<smd name="1" x="-2.54" y="-2.035" dx="0.74" dy="2.79" layer="1"/>
+<smd name="2" x="-2.54" y="2.035" dx="0.74" dy="2.79" layer="1"/>
+<smd name="3" x="-1.27" y="-2.035" dx="0.74" dy="2.79" layer="1"/>
+<smd name="4" x="-1.27" y="2.035" dx="0.74" dy="2.79" layer="1"/>
+<smd name="5" x="0" y="-2.035" dx="0.74" dy="2.79" layer="1"/>
+<smd name="6" x="0" y="2.035" dx="0.74" dy="2.79" layer="1"/>
+<smd name="7" x="1.27" y="-2.035" dx="0.74" dy="2.79" layer="1"/>
+<smd name="8" x="1.27" y="2.035" dx="0.74" dy="2.79" layer="1"/>
+<smd name="9" x="2.54" y="-2.035" dx="0.74" dy="2.79" layer="1"/>
+<smd name="10" x="2.54" y="2.035" dx="0.74" dy="2.79" layer="1"/>
+<text x="0" y="5.08" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-5.08" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3" y1="-2" x2="-3.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-2" x2="-3.5" y2="-1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SW-2WAY">
@@ -7952,6 +7973,25 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 <pin name="P$5" x="-2.54" y="-2.54" visible="pad" length="short"/>
 <pin name="P$6" x="-2.54" y="-5.08" visible="pad" length="short"/>
 <pin name="P$7" x="-2.54" y="-7.62" visible="pad" length="short"/>
+</symbol>
+<symbol name="FTSH-105">
+<description>&lt;b&gt;FTSH-105-XX-XXX-DV-X&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="5.08" length="short"/>
+<pin name="2" x="7.62" y="5.08" length="short" rot="R180"/>
+<pin name="3" x="-7.62" y="2.54" length="short"/>
+<pin name="4" x="7.62" y="2.54" length="short" rot="R180"/>
+<pin name="5" x="-7.62" y="0" length="short"/>
+<pin name="6" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="7" x="-7.62" y="-2.54" length="short"/>
+<pin name="8" x="7.62" y="-2.54" length="short" rot="R180"/>
+<pin name="9" x="-7.62" y="-5.08" length="short"/>
+<pin name="10" x="7.62" y="-5.08" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11681,6 +11721,31 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 <connect gate="G$1" pin="P$5" pad="5"/>
 <connect gate="G$1" pin="P$6" pad="6"/>
 <connect gate="G$1" pin="P$7" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FTSH-105" prefix="J">
+<description>&lt;b&gt;FTSH-105-XX-XXX-DV-X&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="FTSH-105" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FTSH-105">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
