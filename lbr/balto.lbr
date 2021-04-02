@@ -1235,8 +1235,8 @@ wide body 7.5 mm/JEDEC MS-013AC</description>
 <smd name="6" x="3" y="5.5" dx="1.8" dy="1" layer="1" roundness="50" rot="R90"/>
 </package>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="27">https://creativecommons.org/licenses/by-sa/4.0</text>
 <text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
 </package>
 <package name="2X03_BORDER_TP">
@@ -5918,10 +5918,10 @@ https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-ID
 </symbol>
 <symbol name="CC_BY-SA_TEXT">
 <text x="0" y="7.62" size="1.6764" layer="95">Released under the Creative Commons</text>
-<text x="0" y="2.54" size="1.3716" layer="95">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="0" y="2.54" size="1.3716" layer="95">https://creativecommons.org/licenses/by-sa/4.0</text>
 <text x="0" y="0" size="1.778" layer="95">Design by:</text>
 <text x="16.764" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="0" y="5.08" size="1.6764" layer="95">Attribution Share-Alike 3.0 License</text>
+<text x="0" y="5.08" size="1.6764" layer="95">Attribution Share-Alike 4.0 License</text>
 </symbol>
 <symbol name="KSZ8851SNL">
 <wire x1="-20.32" y1="25.4" x2="20.32" y2="25.4" width="0.254" layer="94"/>
