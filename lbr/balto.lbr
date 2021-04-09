@@ -3860,7 +3860,7 @@ Source: http://v4.cypress.com/cfuploads/img/products/cywusb6934.pdf</description
 <smd name="M2" x="0" y="-2.54" dx="4.064" dy="1.524" layer="16"/>
 </package>
 <package name="0603">
-<description>&lt;b&gt;0603 Resistor&lt;/b&gt;</description>
+<description>&lt;b&gt;0603&lt;/b&gt;</description>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.5" y2="0.4" layer="51"/>
 <rectangle x1="0.5" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 <rectangle x1="-0.5" y1="-0.4" x2="0.5" y2="-0.3" layer="51"/>
