@@ -257,7 +257,7 @@
                         "PTH": true,
                         "VIA": true
                     },
-                    "filename_format": "%N.plated.drills.xln",
+                    "filename_format": "%N.drills_pth.xln",
                     "layers": {
                         "from": 1,
                         "to": 16
@@ -278,7 +278,7 @@
                         "PTH": false,
                         "VIA": false
                     },
-                    "filename_format": "%N.nonplated.drills.xln",
+                    "filename_format": "%N.drills_npth.xln",
                     "layers": {
                         "from": 1,
                         "to": 16
