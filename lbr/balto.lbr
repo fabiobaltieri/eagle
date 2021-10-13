@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -5459,6 +5459,71 @@ https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-ID
 <smd name="142" x="-10.625" y="-7.75" dx="0.3" dy="1.2" layer="1" rot="R90"/>
 <smd name="143" x="-10.625" y="-8.25" dx="0.3" dy="1.2" layer="1" rot="R90"/>
 <smd name="144" x="-10.625" y="-8.75" dx="0.3" dy="1.2" layer="1" rot="R90"/>
+</package>
+<package name="TSOP-54">
+<description>&lt;b&gt;54 pin TSOP&lt;/b&gt;</description>
+<text x="0" y="12.62" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="-12.62" size="1.27" layer="25" align="center">&gt;VALUE</text>
+<wire x1="-5.08" y1="-11.11" x2="5.08" y2="-11.11" width="0.127" layer="51"/>
+<wire x1="5.08" y1="-11.11" x2="5.08" y2="11.11" width="0.127" layer="51"/>
+<wire x1="5.08" y1="11.11" x2="-5.08" y2="11.11" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="11.11" x2="-5.08" y2="-11.11" width="0.127" layer="51"/>
+<smd name="1" x="-5.08" y="10.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="2" x="-5.08" y="9.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="3" x="-5.08" y="8.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="4" x="-5.08" y="8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="5" x="-5.08" y="7.2" dx="1.51" dy="0.458" layer="1"/>
+<smd name="6" x="-5.08" y="6.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="7" x="-5.08" y="5.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="8" x="-5.08" y="4.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="9" x="-5.08" y="4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="10" x="-5.08" y="3.2" dx="1.51" dy="0.458" layer="1"/>
+<smd name="11" x="-5.08" y="2.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="12" x="-5.08" y="1.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="13" x="-5.08" y="0.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="14" x="-5.08" y="0" dx="1.51" dy="0.458" layer="1"/>
+<smd name="15" x="-5.08" y="-0.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="16" x="-5.08" y="-1.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="17" x="-5.08" y="-2.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="18" x="-5.08" y="-3.2" dx="1.51" dy="0.458" layer="1"/>
+<smd name="19" x="-5.08" y="-4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="20" x="-5.08" y="-4.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="21" x="-5.08" y="-5.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="22" x="-5.08" y="-6.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="23" x="-5.08" y="-7.2" dx="1.51" dy="0.458" layer="1"/>
+<smd name="24" x="-5.08" y="-8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="25" x="-5.08" y="-8.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="28" x="5.08" y="-10.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="29" x="5.08" y="-9.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="30" x="5.08" y="-8.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="31" x="5.08" y="-8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="32" x="5.08" y="-7.2" dx="1.51" dy="0.458" layer="1"/>
+<smd name="33" x="5.08" y="-6.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="34" x="5.08" y="-5.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="35" x="5.08" y="-4.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="36" x="5.08" y="-4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="37" x="5.08" y="-3.2" dx="1.51" dy="0.458" layer="1"/>
+<smd name="38" x="5.08" y="-2.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="39" x="5.08" y="-1.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="40" x="5.08" y="-0.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="41" x="5.08" y="0" dx="1.51" dy="0.458" layer="1"/>
+<smd name="42" x="5.08" y="0.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="43" x="5.08" y="1.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="44" x="5.08" y="2.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="45" x="5.08" y="3.2" dx="1.51" dy="0.458" layer="1"/>
+<smd name="46" x="5.08" y="4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="47" x="5.08" y="4.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="48" x="5.08" y="5.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="49" x="5.08" y="6.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="50" x="5.08" y="7.2" dx="1.51" dy="0.458" layer="1"/>
+<wire x1="-3.6" y1="11.4" x2="-5.4" y2="11.4" width="0.127" layer="21"/>
+<wire x1="-5.4" y1="11.4" x2="-5.4" y2="11" width="0.127" layer="21"/>
+<smd name="26" x="-5.08" y="-9.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="27" x="-5.08" y="-10.4" dx="1.51" dy="0.458" layer="1"/>
+<smd name="51" x="5.08" y="8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="52" x="5.08" y="8.8" dx="1.51" dy="0.458" layer="1"/>
+<smd name="53" x="5.08" y="9.6" dx="1.51" dy="0.458" layer="1"/>
+<smd name="54" x="5.08" y="10.4" dx="1.51" dy="0.458" layer="1"/>
 </package>
 </packages>
 <symbols>
@@ -12528,7 +12593,7 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 <gate name="G$1" symbol="SDRAM" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TF-BGA54">
+<device name="-BGA" package="TF-BGA54">
 <connects>
 <connect gate="G$1" pin="!CAS" pad="F7"/>
 <connect gate="G$1" pin="!CS" pad="G9"/>
@@ -12573,6 +12638,56 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 <connect gate="G$1" pin="UDQM" pad="F1"/>
 <connect gate="G$1" pin="VDD" pad="A9 E7 J9"/>
 <connect gate="G$1" pin="VDDQ" pad="A7 B3 C7 D3" route="any"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TSOP" package="TSOP-54">
+<connects>
+<connect gate="G$1" pin="!CAS" pad="17"/>
+<connect gate="G$1" pin="!CS" pad="19"/>
+<connect gate="G$1" pin="!RAS" pad="18"/>
+<connect gate="G$1" pin="!WE" pad="16"/>
+<connect gate="G$1" pin="A0" pad="23"/>
+<connect gate="G$1" pin="A1" pad="24"/>
+<connect gate="G$1" pin="A10" pad="22"/>
+<connect gate="G$1" pin="A11" pad="35"/>
+<connect gate="G$1" pin="A12" pad="36"/>
+<connect gate="G$1" pin="A2" pad="25"/>
+<connect gate="G$1" pin="A3" pad="26"/>
+<connect gate="G$1" pin="A4" pad="29"/>
+<connect gate="G$1" pin="A5" pad="30"/>
+<connect gate="G$1" pin="A6" pad="31"/>
+<connect gate="G$1" pin="A7" pad="32"/>
+<connect gate="G$1" pin="A8" pad="33"/>
+<connect gate="G$1" pin="A9" pad="34"/>
+<connect gate="G$1" pin="BA0" pad="20"/>
+<connect gate="G$1" pin="BA1" pad="21"/>
+<connect gate="G$1" pin="CKE" pad="37"/>
+<connect gate="G$1" pin="CLK" pad="38"/>
+<connect gate="G$1" pin="DQ0" pad="2"/>
+<connect gate="G$1" pin="DQ1" pad="4"/>
+<connect gate="G$1" pin="DQ10" pad="45"/>
+<connect gate="G$1" pin="DQ11" pad="47"/>
+<connect gate="G$1" pin="DQ12" pad="48"/>
+<connect gate="G$1" pin="DQ13" pad="50"/>
+<connect gate="G$1" pin="DQ14" pad="51"/>
+<connect gate="G$1" pin="DQ15" pad="53"/>
+<connect gate="G$1" pin="DQ2" pad="5"/>
+<connect gate="G$1" pin="DQ3" pad="7"/>
+<connect gate="G$1" pin="DQ4" pad="8"/>
+<connect gate="G$1" pin="DQ5" pad="10"/>
+<connect gate="G$1" pin="DQ6" pad="11"/>
+<connect gate="G$1" pin="DQ7" pad="13"/>
+<connect gate="G$1" pin="DQ8" pad="42"/>
+<connect gate="G$1" pin="DQ9" pad="44"/>
+<connect gate="G$1" pin="GND" pad="28 41 54"/>
+<connect gate="G$1" pin="GNDQ" pad="6 12 46 52" route="any"/>
+<connect gate="G$1" pin="LDQM" pad="15"/>
+<connect gate="G$1" pin="UDQM" pad="39"/>
+<connect gate="G$1" pin="VDD" pad="1 14 27" route="any"/>
+<connect gate="G$1" pin="VDDQ" pad="3 9 43 49" route="any"/>
 </connects>
 <technologies>
 <technology name=""/>
