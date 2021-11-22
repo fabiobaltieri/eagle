@@ -13688,7 +13688,7 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32H750VX">
+<deviceset name="STM32H750VX" prefix="U">
 <description>&lt;b&gt;STM32H750Vx&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="STM32H750VX" x="0" y="0"/>
