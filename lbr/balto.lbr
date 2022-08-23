@@ -5716,6 +5716,20 @@ https://www.ti.com/lit/ds/symlink/tcan337.pdf</description>
 <smd name="6" x="0.95" y="0.65" dx="0.5" dy="0.25" layer="1"/>
 <smd name="5" x="0.95" y="0" dx="0.5" dy="0.25" layer="1"/>
 </package>
+<package name="TSOT25">
+<description>&lt;b&gt;TSOT25&lt;/b&gt;</description>
+<wire x1="-1.45" y1="-0.8" x2="1.45" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="1.45" y1="-0.8" x2="1.45" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.45" y1="0.8" x2="-1.45" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="0.8" x2="-1.45" y2="-0.8" width="0.127" layer="21"/>
+<smd name="5" x="-0.95" y="1.1" dx="0.7" dy="1" layer="1"/>
+<smd name="4" x="0.95" y="1.1" dx="0.7" dy="1" layer="1"/>
+<smd name="3" x="0.95" y="-1.1" dx="0.7" dy="1" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="0.7" dy="1" layer="1"/>
+<smd name="2" x="0" y="-1.1" dx="0.7" dy="1" layer="1"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SW-2WAY">
@@ -9383,6 +9397,22 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 <pin name="MODE" x="-17.78" y="-7.62" length="short"/>
 <pin name="VCC" x="-17.78" y="12.7" length="short"/>
 <pin name="TH" x="17.78" y="-10.16" length="short" rot="R180"/>
+</symbol>
+<symbol name="PAM2804">
+<description>&lt;b&gt;PAM2804&lt;/b&gt;&lt;br/&gt;
+
+1A STEP-DOWN CONSTANT CURRENT, HIGH EFFICIENCY LED DRIVER</description>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short"/>
+<pin name="VIN" x="-10.16" y="5.08" length="short"/>
+<pin name="EN" x="-10.16" y="0" length="short"/>
+<pin name="SW" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="FB" x="10.16" y="0" length="short" rot="R180"/>
+<text x="-5.08" y="10.16" size="1.778" layer="104" rot="MR180">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -14039,6 +14069,28 @@ https://www.mouser.ie/datasheet/2/115/DRDC3105-219294.pdf</description>
 <connect gate="G$1" pin="TH" pad="TH"/>
 <connect gate="G$1" pin="VCC" pad="12"/>
 <connect gate="G$1" pin="VM" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PAM2804" prefix="U">
+<description>&lt;b&gt;PAM2804&lt;/b&gt;&lt;br/&gt;
+
+1A STEP-DOWN CONSTANT CURRENT, HIGH EFFICIENCY LED DRIVER</description>
+<gates>
+<gate name="G$1" symbol="PAM2804" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSOT25">
+<connects>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="3"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
